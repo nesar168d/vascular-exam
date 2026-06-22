@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>血管外科備考系統</title>
+<style>
+:root {
+  --blue: #1a73e8;
+  --blue-dark: #0d47a1;
+  --green: #34a853;
+  --red: #ea4335;
+  --yellow: #fbbc04;
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #202124;
+  --text2: #5f6368;
+  --border: #e0e0e0;
+  --shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, "PingFang TC", "Helvetica Neue", sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* Header */
+.header { background: var(--blue); color: white; padding: 16px 20px; display: flex; align-items: center; gap: 12px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
+.header h1 { font-size: 18px; font-weight: 600; }
+.header .subtitle { font-size: 12px; opacity: 0.85; }
+.back-btn { background: rgba(255,255,255,0.2); border: none; color: white; padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 14px; display: none; }
+
+/* Nav tabs */
+.nav { display: flex; background: white; border-bottom: 1px solid var(--border); overflow-x: auto; }
+.nav-tab { flex: 1; min-width: 80px; padding: 12px 8px; text-align: center; border: none; background: none; cursor: pointer; font-size: 13px; color: var(--text2); border-bottom: 2px solid transparent; transition: all 0.2s; }
+.nav-tab.active { color: var(--blue); border-bottom-color: var(--blue); font-weight: 600; }
+
+/* Screens */
+.screen { display: none; padding: 16px; max-width: 720px; margin: 0 auto; }
+.screen.active { display: block; }
+
+/* Stats cards */
+.stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.stat-card { background: white; border-radius: 12px; padding: 16px; box-shadow: var(--shadow); text-align: center; }
+.stat-num { font-size: 32px; font-weight: 700; color: var(--blue); }
+.stat-label { font-size: 12px; color: var(--text2); margin-top: 4px; }
+
+/* Progress bar */
+.progress-wrap { background: #e8f0fe; border-radius: 99px; height: 8px; overflow: hidden; }
+.progress-bar { height: 100%; background: var(--blue); border-radius: 99px; transition: width 0.5s; }
+
+/* Topic cards */
+.topic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.topic-card { background: white; border-radius: 12px; padding: 16px; box-shadow: var(--shadow); cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; border: 2px solid transparent; }
+.topic-card:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
+.topic-card.selected { border-color: var(--blue); }
+.topic-icon { font-size: 28px; margin-bottom: 8px; }
+.topic-name { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+.topic-en { font-size: 11px; color: var(--text2); margin-bottom: 10px; }
+.topic-stats { font-size: 12px; color: var(--text2); }
+.accuracy-badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: 11px; font-weight: 600; }
+.accuracy-high { background: #e6f4ea; color: var(--green); }
+.accuracy-mid { background: #fef9e7; color: #f9a825; }
+.accuracy-low { background: #fce8e6; color: var(--red); }
+.accuracy-none { background: #f1f3f4; color: var(--text2); }
+
+/* Start quiz button */
+.start-section { margin-top: 16px; background: white; border-radius: 12px; padding: 16px; box-shadow: var(--shadow); }
+.start-section h3 { font-size: 15px; margin-bottom: 12px; }
+.mode-row { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.mode-btn { flex: 1; min-width: 80px; padding: 8px; border: 2px solid var(--border); background: white; border-radius: 8px; cursor: pointer; font-size: 13px; text-align: center; transition: all 0.15s; }
+.mode-btn.active { border-color: var(--blue); background: #e8f0fe; color: var(--blue); font-weight: 600; }
+.n-row { display: flex; gap: 8px; margin-bottom: 16px; align-items: center; }
+.n-row label { font-size: 13px; color: var(--text2); }
+.n-row select { padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; }
+.btn-primary { width: 100%; padding: 14px; background: var(--blue); color: white; border: none; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; transition: background 0.15s; }
+.btn-primary:hover { background: var(--blue-dark); }
+.btn-primary:disabled { background: #bdbdbd; cursor: not-allowed; }
+
+/* Quiz screen */
+.quiz-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.quiz-progress { font-size: 14px; color: var(--text2); }
+.quiz-topic-tag { background: #e8f0fe; color: var(--blue); padding: 4px 10px; border-radius: 99px; font-size: 12px; font-weight: 600; }
+.question-card { background: white; border-radius: 12px; padding: 20px; box-shadow: var(--shadow); margin-bottom: 16px; }
+.q-meta { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.q-year { background: #f1f3f4; color: var(--text2); padding: 3px 8px; border-radius: 99px; font-size: 12px; }
+.q-text { font-size: 15px; line-height: 1.7; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+.options { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
+.option-btn { padding: 14px 16px; border: 2px solid var(--border); background: white; border-radius: 10px; cursor: pointer; font-size: 14px; text-align: left; line-height: 1.5; transition: all 0.15s; display: flex; gap: 12px; align-items: flex-start; }
+.option-btn:hover:not(:disabled) { border-color: var(--blue); background: #f0f7ff; }
+.option-btn.correct { border-color: var(--green); background: #e6f4ea; color: #1e7e34; }
+.option-btn.wrong { border-color: var(--red); background: #fce8e6; color: #c62828; }
+.option-btn.reveal { border-color: var(--green); background: #e6f4ea; color: #1e7e34; }
+.option-letter { font-weight: 700; min-width: 20px; }
+.option-text { flex: 1; }
+.feedback-box { border-radius: 10px; padding: 14px; margin-top: 12px; font-size: 14px; line-height: 1.6; display: none; }
+.feedback-box.correct { background: #e6f4ea; border: 1px solid #a8d5b5; }
+.feedback-box.wrong { background: #fce8e6; border: 1px solid #f5a9a3; }
+.feedback-icon { font-size: 18px; margin-right: 6px; }
+.ref-text { font-size: 12px; color: var(--text2); margin-top: 6px; }
+.next-btn { width: 100%; padding: 14px; background: var(--text); color: white; border: none; border-radius: 10px; font-size: 15px; font-weight: 600; cursor: pointer; margin-top: 8px; display: none; }
+.next-btn:hover { background: #333; }
+
+/* Result screen */
+.result-card { background: white; border-radius: 12px; padding: 24px; box-shadow: var(--shadow); text-align: center; margin-bottom: 16px; }
+.result-score { font-size: 56px; font-weight: 800; }
+.result-score.perfect { color: var(--green); }
+.result-score.good { color: var(--blue); }
+.result-score.fair { color: var(--yellow); }
+.result-score.poor { color: var(--red); }
+.result-msg { font-size: 16px; margin-top: 8px; color: var(--text2); }
+.result-items { background: white; border-radius: 12px; padding: 16px; box-shadow: var(--shadow); margin-bottom: 16px; }
+.result-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.result-item:last-child { border-bottom: none; }
+.result-icon { font-size: 18px; min-width: 24px; }
+.result-detail { flex: 1; font-size: 13px; line-height: 1.5; }
+.result-ans { font-size: 12px; color: var(--text2); margin-top: 2px; }
+.btn-row { display: flex; gap: 10px; }
+.btn-secondary { flex: 1; padding: 13px; background: white; color: var(--blue); border: 2px solid var(--blue); border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; }
+
+/* Log screen */
+.log-box { background: white; border-radius: 12px; padding: 16px; box-shadow: var(--shadow); font-size: 13px; line-height: 1.8; white-space: pre-wrap; overflow-x: auto; color: var(--text); max-height: 70vh; overflow-y: auto; }
+
+/* Loading */
+.loading { text-align: center; padding: 48px; color: var(--text2); }
+.spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--blue); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 12px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Toast */
+.toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%); background: #333; color: white; padding: 10px 20px; border-radius: 8px; font-size: 14px; z-index: 999; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+.toast.show { opacity: 1; }
+
+/* Responsive */
+@media (max-width: 480px) {
+  .topic-grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: 1fr 1fr; }
+  .result-score { font-size: 44px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div style="flex:1">
+    <h1>🏥 血管外科備考</h1>
+    <div class="subtitle" id="header-sub">2026年8月23日考試｜互動練習系統</div>
+  </div>
+</div>
+
+<div class="nav">
+  <button class="nav-tab active" onclick="showScreen('home')">🏠 首頁</button>
+  <button class="nav-tab" onclick="showScreen('quiz-setup')">📝 練習</button>
+  <button class="nav-tab" onclick="showScreen('stats')">📊 統計</button>
+  <button class="nav-tab" onclick="showScreen('log')">📒 日誌</button>
+</div>
+
+<!-- HOME -->
+<div class="screen active" id="screen-home">
+  <div id="home-loading" class="loading"><div class="spinner"></div>載入中...</div>
+  <div id="home-content" style="display:none">
+    <div class="stats-row" style="margin-top:4px">
+      <div class="stat-card">
+        <div class="stat-num" id="stat-practiced">—</div>
+        <div class="stat-label">已練習題數</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" id="stat-accuracy">—</div>
+        <div class="stat-label">整體正確率</div>
+      </div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:14px;box-shadow:var(--shadow);margin-bottom:16px">
+      <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px">
+        <span>完成進度</span>
+        <span id="stat-completion">0%</span>
+      </div>
+      <div class="progress-wrap"><div class="progress-bar" id="progress-bar" style="width:0%"></div></div>
+    </div>
+    <h3 style="font-size:15px;margin-bottom:10px;color:var(--text2)">按主題練習</h3>
+    <div class="topic-grid" id="topic-grid"></div>
+    <div style="margin-top:12px;background:white;border-radius:12px;padding:14px;box-shadow:var(--shadow)">
+      <button class="btn-primary" onclick="startQuickQuiz()">⚡ 快速練習（5題混合）</button>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ SETUP -->
+<div class="screen" id="screen-quiz-setup">
+  <div class="start-section">
+    <h3>選擇主題</h3>
+    <div class="topic-grid" id="setup-topic-grid" style="margin-bottom:16px"></div>
+    <h3>練習模式</h3>
+    <div class="mode-row">
+      <button class="mode-btn active" onclick="selectMode(this,'random')">🎲 隨機</button>
+      <button class="mode-btn" onclick="selectMode(this,'new')">🆕 未練過</button>
+      <button class="mode-btn" onclick="selectMode(this,'wrong')">❌ 錯題</button>
+    </div>
+    <div class="n-row">
+      <label>出題數：</label>
+      <select id="n-select">
+        <option value="5">5 題</option>
+        <option value="10">10 題</option>
+        <option value="20">20 題（模擬考）</option>
+      </select>
+    </div>
+    <button class="btn-primary" id="start-btn" onclick="startQuiz()">開始練習</button>
+  </div>
+</div>
+
+<!-- QUIZ -->
+<div class="screen" id="screen-quiz">
+  <div class="quiz-header">
+    <span class="quiz-progress" id="quiz-progress">1 / 5</span>
+    <span class="quiz-topic-tag" id="quiz-topic-tag">主動脈</span>
+  </div>
+  <div class="question-card">
+    <div class="q-meta">
+      <span class="q-year" id="q-year">2022年</span>
+    </div>
+    <div class="q-text" id="q-text">題目載入中...</div>
+    <div class="options" id="options"></div>
+    <div class="feedback-box" id="feedback-box"></div>
+  </div>
+  <button class="next-btn" id="next-btn" onclick="nextQuestion()">下一題 →</button>
+</div>
+
+<!-- RESULT -->
+<div class="screen" id="screen-result">
+  <div class="result-card">
+    <div class="result-score" id="result-score">—</div>
+    <div class="result-msg" id="result-msg">練習完成！</div>
+  </div>
+  <div class="result-items" id="result-items"></div>
+  <div class="btn-row">
+    <button class="btn-secondary" onclick="showScreen('quiz-setup')">再練一次</button>
+    <button class="btn-primary" style="flex:1" onclick="showScreen('home')">返回首頁</button>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="screen" id="screen-stats">
+  <div id="stats-loading" class="loading"><div class="spinner"></div>載入統計...</div>
+  <div id="stats-content" style="display:none"></div>
+</div>
+
+<!-- LOG -->
+<div class="screen" id="screen-log">
+  <div class="log-box" id="log-content">載入日誌中...</div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let currentTopic = 'all';
+let currentMode = 'random';
+let questions = [];
+let currentIndex = 0;
+let sessionResults = [];
+let answered = false;
+
+// ===== Navigation =====
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  const tabs = ['home','quiz-setup','stats','log'];
+  const idx = tabs.indexOf(id);
+  if (idx >= 0) document.querySelectorAll('.nav-tab')[idx].classList.add('active');
+  if (id === 'home') loadHome();
+  if (id === 'stats') loadStats();
+  if (id === 'log') loadLog();
+  if (id === 'quiz-setup') loadSetupTopics();
+}
+
+// ===== Home =====
+async function loadHome() {
+  document.getElementById('home-loading').style.display = 'block';
+  document.getElementById('home-content').style.display = 'none';
+  const [topics, stats] = await Promise.all([
+    fetch('/api/topics').then(r => r.json()),
+    fetch('/api/stats').then(r => r.json())
+  ]);
+  document.getElementById('stat-practiced').textContent = stats.total_practiced;
+  document.getElementById('stat-accuracy').textContent = stats.accuracy + '%';
+  document.getElementById('stat-completion').textContent = stats.completion + '%';
+  document.getElementById('progress-bar').style.width = stats.completion + '%';
+
+  const grid = document.getElementById('topic-grid');
+  grid.innerHTML = topics.map(t => `
+    <div class="topic-card" onclick="quickStartTopic('${t.key}')">
+      <div class="topic-icon">${t.icon}</div>
+      <div class="topic-name">${t.label}</div>
+      <div class="topic-en">${t.key}</div>
+      <div style="margin-bottom:6px">
+        <div class="progress-wrap"><div class="progress-bar" style="width:${t.total ? Math.round(t.practiced/t.total*100) : 0}%"></div></div>
+      </div>
+      <div class="topic-stats">
+        ${t.practiced}/${t.total} 題 &nbsp;
+        <span class="accuracy-badge ${t.practiced ? (t.accuracy>=80?'accuracy-high':t.accuracy>=60?'accuracy-mid':'accuracy-low') : 'accuracy-none'}">
+          ${t.practiced ? t.accuracy+'%' : '未練習'}
+        </span>
+      </div>
+    </div>
+  `).join('');
+
+  document.getElementById('home-loading').style.display = 'none';
+  document.getElementById('home-content').style.display = 'block';
+}
+
+function quickStartTopic(topic) {
+  currentTopic = topic;
+  currentMode = 'random';
+  startQuiz(5);
+}
+function startQuickQuiz() {
+  currentTopic = 'all';
+  currentMode = 'random';
+  startQuiz(5);
+}
+
+// ===== Quiz Setup =====
+function selectMode(btn, mode) {
+  document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentMode = mode;
+}
+
+async function loadSetupTopics() {
+  const topics = await fetch('/api/topics').then(r => r.json());
+  const grid = document.getElementById('setup-topic-grid');
+  grid.innerHTML = `<div class="topic-card ${currentTopic==='all'?'selected':''}" onclick="selectTopic(this,'all')">
+    <div class="topic-icon">📚</div><div class="topic-name">全部主題</div><div class="topic-en">All Topics</div>
+  </div>` + topics.map(t => `
+    <div class="topic-card ${currentTopic===t.key?'selected':''}" onclick="selectTopic(this,'${t.key}')">
+      <div class="topic-icon">${t.icon}</div>
+      <div class="topic-name">${t.label}</div>
+      <div class="topic-en">${t.key}</div>
+    </div>
+  `).join('');
+}
+
+function selectTopic(el, topic) {
+  document.querySelectorAll('#setup-topic-grid .topic-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  currentTopic = topic;
+}
+
+// ===== Quiz =====
+async function startQuiz(n) {
+  if (!n) n = parseInt(document.getElementById('n-select').value);
+  showScreen('quiz');
+  document.getElementById('quiz-topic-tag').textContent = currentTopic === 'all' ? '混合' : (currentTopic);
+  document.getElementById('next-btn').style.display = 'none';
+
+  const res = await fetch(`/api/questions?topic=${currentTopic}&n=${n}&mode=${currentMode}`);
+  questions = await res.json();
+  currentIndex = 0;
+  sessionResults = [];
+  showQuestion();
+}
+
+function showQuestion() {
+  if (currentIndex >= questions.length) { showResult(); return; }
+  answered = false;
+  const q = questions[currentIndex];
+  document.getElementById('quiz-progress').textContent = `${currentIndex+1} / ${questions.length}`;
+  document.getElementById('quiz-topic-tag').textContent = q.topic_label || q.topic;
+  document.getElementById('q-year').textContent = q.year ? q.year + '年考題' : '考古題';
+  document.getElementById('q-text').textContent = q.question;
+
+  // Parse options
+  const opts = parseOptions(q.options);
+  const optContainer = document.getElementById('options');
+  optContainer.innerHTML = opts.map((o, i) => `
+    <button class="option-btn" onclick="selectOption(this, '${o.letter}', ${q.id})" data-letter="${o.letter}">
+      <span class="option-letter">${o.letter}</span>
+      <span class="option-text">${o.text}</span>
+    </button>
+  `).join('');
+
+  document.getElementById('feedback-box').style.display = 'none';
+  document.getElementById('next-btn').style.display = 'none';
+}
+
+function parseOptions(raw) {
+  if (!raw) return [];
+  raw = String(raw);
+  // Normalize full-width letters
+  raw = raw.replace(/Ａ[：:]/g,'(A)').replace(/Ｂ[：:]/g,'(B)').replace(/Ｃ[：:]/g,'(C)')
+           .replace(/Ｄ[：:]/g,'(D)').replace(/Ｅ[：:]/g,'(E)');
+  raw = raw.replace(/A[.．:：]\s*/g,'(A)').replace(/B[.．:：]\s*/g,'(B)').replace(/C[.．:：]\s*/g,'(C)')
+           .replace(/D[.．:：]\s*/g,'(D)').replace(/E[.．:：]\s*/g,'(E)');
+
+  const result = [];
+  const regex = /\(([A-E])\)\s*([\s\S]*?)(?=\([A-E]\)|$)/g;
+  let m;
+  while ((m = regex.exec(raw)) !== null) {
+    const text = m[2].trim().replace(/\n/g, ' ').replace(/\s+/g, ' ');
+    if (text) result.push({ letter: m[1], text });
+  }
+  // Fallback: split by newline
+  if (result.length === 0 && raw.trim()) {
+    raw.split('\n').filter(l => l.trim()).forEach((l, i) => {
+      if (i < 5) result.push({ letter: 'ABCDE'[i], text: l.trim() });
+    });
+  }
+  return result;
+}
+
+async function selectOption(btn, letter, qid) {
+  if (answered) return;
+  answered = true;
+
+  const resp = await fetch('/api/answer', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({id: qid, answer: letter})
+  }).then(r => r.json());
+
+  const correct = resp.correct;
+  const correctLetter = resp.correct_answer;
+
+  // Update button styles
+  document.querySelectorAll('.option-btn').forEach(b => {
+    b.disabled = true;
+    const l = b.dataset.letter;
+    if (l === correctLetter) b.classList.add(correct ? 'correct' : 'reveal');
+    if (l === letter && !correct) b.classList.add('wrong');
+  });
+
+  // Show feedback
+  const fb = document.getElementById('feedback-box');
+  fb.className = 'feedback-box ' + (correct ? 'correct' : 'wrong');
+  fb.style.display = 'block';
+  fb.innerHTML = correct
+    ? `<span class="feedback-icon">✅</span> <strong>答對了！</strong><div class="ref-text">📖 ${resp.ref || 'Rutherford 9th ed'} | ${resp.year || ''}年考題</div>`
+    : `<span class="feedback-icon">❌</span> 答錯了，正確答案是 <strong>${correctLetter}</strong><div class="ref-text">📖 ${resp.ref || 'Rutherford 9th ed'} | ${resp.year || ''}年考題</div>`;
+
+  sessionResults.push({ q: questions[currentIndex], userAns: letter, correct, correctAns: correctLetter });
+
+  document.getElementById('next-btn').style.display = 'block';
+  document.getElementById('next-btn').textContent = currentIndex + 1 < questions.length ? '下一題 →' : '查看結果 📊';
+}
+
+function nextQuestion() {
+  currentIndex++;
+  showQuestion();
+}
+
+// ===== Result =====
+function showResult() {
+  showScreen('result');
+  const total = sessionResults.length;
+  const correct = sessionResults.filter(r => r.correct).length;
+  const pct = Math.round(correct / total * 100);
+
+  const scoreEl = document.getElementById('result-score');
+  scoreEl.textContent = `${correct}/${total}`;
+  scoreEl.className = 'result-score ' + (pct===100?'perfect':pct>=80?'good':pct>=60?'fair':'poor');
+  document.getElementById('result-msg').textContent = pct===100?'🎉 全對！完美！':pct>=80?'💪 表現優秀！':pct>=60?'📚 還需加強，回頭看看錯題':'⚠️ 建議重讀相關章節';
+
+  const items = document.getElementById('result-items');
+  items.innerHTML = sessionResults.map((r, i) => `
+    <div class="result-item">
+      <div class="result-icon">${r.correct ? '✅' : '❌'}</div>
+      <div class="result-detail">
+        <div>Q${i+1}. ${r.q.question.substring(0,60)}...</div>
+        <div class="result-ans">你的答案：${r.userAns} | 正確：${r.correctAns} | ${r.q.year||''}年</div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ===== Stats =====
+async function loadStats() {
+  document.getElementById('stats-loading').style.display = 'block';
+  document.getElementById('stats-content').style.display = 'none';
+  const [stats, topics] = await Promise.all([
+    fetch('/api/stats').then(r => r.json()),
+    fetch('/api/topics').then(r => r.json())
+  ]);
+
+  const content = document.getElementById('stats-content');
+  content.innerHTML = `
+    <div class="stats-row" style="margin-top:4px">
+      <div class="stat-card"><div class="stat-num">${stats.total_practiced}</div><div class="stat-label">已練習</div></div>
+      <div class="stat-card"><div class="stat-num">${stats.accuracy}%</div><div class="stat-label">正確率</div></div>
+      <div class="stat-card"><div class="stat-num">${stats.total_questions}</div><div class="stat-label">題庫總題數</div></div>
+      <div class="stat-card"><div class="stat-num">${stats.completion}%</div><div class="stat-label">完成進度</div></div>
+    </div>
+    <div style="background:white;border-radius:12px;padding:16px;box-shadow:var(--shadow);margin-bottom:16px">
+      <h3 style="font-size:14px;margin-bottom:12px;color:var(--text2)">各主題正確率</h3>
+      ${topics.map(t => `
+        <div style="margin-bottom:12px">
+          <div style="display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px">
+            <span>${t.icon} ${t.label}</span>
+            <span style="color:var(--text2)">${t.practiced}/${t.total}題 · ${t.accuracy}%</span>
+          </div>
+          <div class="progress-wrap"><div class="progress-bar" style="width:${t.accuracy}%;background:${t.accuracy>=80?'var(--green)':t.accuracy>=60?'var(--yellow)':'var(--red)'}"></div></div>
+        </div>
+      `).join('')}
+    </div>
+    ${Object.keys(stats.daily).length > 0 ? `
+    <div style="background:white;border-radius:12px;padding:16px;box-shadow:var(--shadow)">
+      <h3 style="font-size:14px;margin-bottom:12px;color:var(--text2)">近期練習紀錄</h3>
+      ${Object.entries(stats.daily).reverse().map(([d, v]) => `
+        <div style="display:flex;justify-content:space-between;font-size:13px;padding:6px 0;border-bottom:1px solid var(--border)">
+          <span>${d}</span>
+          <span>${v.correct}/${v.total} (${v.total?Math.round(v.correct/v.total*100):0}%)</span>
+        </div>
+      `).join('')}
+    </div>` : ''}
+    <div style="margin-top:12px">
+      <button class="btn-secondary" style="width:100%" onclick="resetProgress()">⚠️ 重設所有進度</button>
+    </div>
+  `;
+
+  document.getElementById('stats-loading').style.display = 'none';
+  document.getElementById('stats-content').style.display = 'block';
+}
+
+async function resetProgress() {
+  if (!confirm('確定要重設所有練習進度嗎？')) return;
+  await fetch('/api/reset_progress', {method:'POST'});
+  showToast('進度已重設');
+  loadStats();
+}
+
+// ===== Log =====
+async function loadLog() {
+  const res = await fetch('/api/log').then(r => r.json());
+  document.getElementById('log-content').textContent = res.log;
+}
+
+// ===== Toast =====
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// Init
+loadHome();
+
+// Update days remaining
+const exam = new Date('2026-08-23');
+const today = new Date();
+const days = Math.ceil((exam - today) / (1000*60*60*24));
+document.getElementById('header-sub').textContent = `距考試還有 ${days} 天｜2026.08.23`;
+</script>
+</body>
+</html>
