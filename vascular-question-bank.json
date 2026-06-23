@@ -1877,13 +1877,12 @@
     "question": "關於臨床及研究中所使用的CEAP(Clinical, Etiologic, Anatomic, and Pathophysiologic)分類，下列何者為非？",
     "options": [
       "C3: edema 水腫",
-      "E",
-      "congential (Klippel-Trenaunay syndrome)先天性",
+      "Ec: congential (Klippel-Trenaunay syndrome)先天性",
       "Ap: perforator 穿孔",
-      "Po: obtrstucion, thrombosis 阻塞、栓塞",
+      "Po: obstruction, thrombosis 阻塞、栓塞",
       "C5: Active ulcer 急性潰瘍"
     ],
-    "answer": "Ｅ",
+    "answer": "E",
     "ref": "Rutherford,s vascular surgery, 9th edition",
     "difficulty": "",
     "practiced": false,
@@ -2118,8 +2117,10 @@
   {
     "question": "BTAI(blunt thoracic aortic injury)於車禍意外是一需要注意的診斷,下列敘述,何者錯誤？",
     "options": [
-      "Blunt trauma病患中, Autopsy結果高達21%~34%,機轉包括aortic injury bending/shearing stretching, sudden blood pressure elevation, Water-Hammer effect 等                                                                        B.Autopsy報告提出36%~56%發生在aortic isthmus, ascending aorta 8%~27%, aortic arch 8%~18%, 其餘發生在descending aorta",
-      "對BTAI病患,Grade I接受medical therapy, GradeII~III須urgent手術治療(<24hrs)                                                D.第一例 endovascular repair治療BTAI始於1997年. 2012年SVS guideline建議TEVAR使用於BTAI",
+      "Blunt trauma病患中, Autopsy結果高達21%~34%,機轉包括aortic injury bending/shearing stretching, sudden blood pressure elevation, Water-Hammer effect 等",
+      "Autopsy報告提出36%~56%發生在aortic isthmus, ascending aorta 8%~27%, aortic arch 8%~18%, 其餘發生在descending aorta",
+      "對BTAI病患,Grade I接受medical therapy, GradeII~III須urgent手術治療(<24hrs)",
+      "第一例 endovascular repair治療BTAI始於1997年. 2012年SVS guideline建議TEVAR使用於BTAI",
       "目前所有TEVAR devices 均為FDA approve可應用於BTAI病患手術"
     ],
     "answer": "E",
@@ -2175,7 +2176,8 @@
       "AEF主要可分為primary及secondary兩種，primary為主動脈及腸道發生直接的連結，secondary則是換過主動脈置換的主動脈或人工血管與腸道產生連結",
       "AEF的診斷可以用胃及12指腸鏡加上電腦斷層加以診斷",
       "Primary AEF可能因為主動脈或腸道疾病而產生，大部分因主動脈瘤產生",
-      "Secondary AEF可能因主動脈置換手術後，發生人工血管感染或是12指腸損傷而產生 E 使用EVAR治療secondary AEF可以有效降低short-term mortality且reinfection rate亦不高"
+      "Secondary AEF可能因主動脈置換手術後，發生人工血管感染或是12指腸損傷而產生",
+      "使用EVAR治療secondary AEF可以有效降低short-term mortality且reinfection rate亦不高"
     ],
     "answer": "E",
     "topic": "Aorta",
