@@ -380,6 +380,13 @@ function showQuestion() {
 
 function parseOptions(raw) {
   if (!raw) return [];
+  // If already an array (JSON list from API), map directly
+  if (Array.isArray(raw)) {
+    return raw.filter(o => o && String(o).trim()).map((o, i) => ({
+      letter: 'ABCDE'[i] || String(i+1),
+      text: String(o).trim().replace(/\s+/g, ' ')
+    }));
+  }
   raw = String(raw);
   // Normalize full-width letters
   raw = raw.replace(/Ａ[：:]/g,'(A)').replace(/Ｂ[：:]/g,'(B)').replace(/Ｃ[：:]/g,'(C)')
