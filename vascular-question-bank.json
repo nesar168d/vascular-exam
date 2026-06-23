@@ -1,94 +1,16 @@
 [
   {
     "id": 1,
-    "year": "2012",
-    "topic": "Aorta",
-    "question": "下列何種形式的的主動脈支架置放後滲漏(endoleak)和主動脈瘤頸部(aneurysm neck)太短，直徑太大及太彎曲有關?",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1980",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 2,
-    "year": "2012",
-    "topic": "Basic",
-    "question": "下列關於Buerger’s disease的描述何者為非？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1169",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 3,
-    "year": "2012",
-    "topic": "Basic",
-    "question": "下列關於皮下注射的低分子量肝素(low molecular weight heparin)的描述何者為非？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:549",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 4,
-    "year": "2012",
-    "topic": "Aorta",
-    "question": "進行TEVAR手術時,下列何種病人較不需進行腦脊髓液引流?",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1310",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 5,
-    "year": "2012",
-    "topic": "Venous",
-    "question": "取大隱靜脈來作為繞道手術材料時需注意的事項,以下何者為非?",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1321",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 6,
-    "year": "2012",
-    "topic": "Peripheral",
-    "question": "根據大西洋岸各協會之共識TASC II的建議,罹患周邊動脈狹窄(PAD)的病人控制血脂的建議,下列何者為誤?",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1596",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 7,
-    "year": "2012",
-    "topic": "Visceral",
-    "question": "請問造成renal artery stenosis最常見的原因是",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2186",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 8,
     "year": "2013",
     "topic": "Basic",
     "question": "下列何者為感染性動脈瘤最少見的原因?",
-    "options": [],
+    "options": [
+      "Mycotic Aneurysm",
+      "Microbial Arteritis",
+      "Infection of Existing Aneurysm",
+      "Post-traumatic Infected False Aneurysm",
+      "Infected Preexisting Aneurysm"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2156",
     "difficulty": "",
@@ -96,11 +18,17 @@
     "correct": null
   },
   {
-    "id": 9,
+    "id": 2,
     "year": "2013",
     "topic": "Aorta",
     "question": "腹主動脈瘤合併雙側總髂動脈瘤時,下列何者為對?",
-    "options": [],
+    "options": [
+      "The risk of buttock claudication is around 2 % in the case of single internal iliac artery occlusion .",
+      "The risk of buttock claudication is around 30% in the case of double internal iliac arteries occlusion.",
+      "In practice, colon ischemia is more likely to result from  proximal internal iliac artery occlusion.",
+      "The internal iliac arteries should be treat by stet-graft or embolixation to avoid Type IV leak",
+      "The colleterals may not comes from deep femoral arteries."
+    ],
     "answer": "B",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1987",
     "difficulty": "",
@@ -108,11 +36,17 @@
     "correct": null
   },
   {
-    "id": 10,
+    "id": 3,
     "year": "2013",
     "topic": "Aorta",
     "question": "關於胸主動脈瘤的敘述下列何者為錯?",
-    "options": [],
+    "options": [
+      "It is important to ensure that the distal end of the elephant trunk grafts is visiable with fluoroscopy.",
+      "The Double-Barrel Endovascular Debranching method of preserving arch vessel patency may meet the problems of compromised landing zone and deformity of aortic stent-graft and parallel stent.",
+      "Preservation of antegrade vertebral flow may be beneficial to the spinal cord circulation and help diminish the risk for paraplegia in the setting of long descending thoracic grafts that extend into the arch.",
+      "In hybrid surgeries of aortic arch aneurysm and dissection, the method of frozen elephant trunk graft has the lowest perioperative mortality and neurologic deficit rate.",
+      "The recommended diameter of aortic arch dissecting  aneurysm to treat is about 5.5 to 6.0 cm."
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2077-2087",
     "difficulty": "",
@@ -120,11 +54,17 @@
     "correct": null
   },
   {
-    "id": 11,
+    "id": 4,
     "year": "2013",
     "topic": "Basic",
     "question": "關於Thromboangiitis Obliterans 何者為錯?",
-    "options": [],
+    "options": [
+      "The etiology is  prooved as a kind of autoimmune disease.",
+      "Smoking is the most important risk factor.",
+      "Precutaneous subintimal angioplasty for limb salvage is  NOT useful to this disease.",
+      "Spinal cord stimulation may offer an other form of therapy.",
+      "This disease may also involve in coronary  cerebral and visceral arteries."
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1170-1184",
     "difficulty": "",
@@ -132,11 +72,17 @@
     "correct": null
   },
   {
-    "id": 12,
+    "id": 5,
     "year": "2013",
     "topic": "Aorta",
     "question": "關於Takayasu's Disease 何者為錯?",
-    "options": [],
+    "options": [
+      "It is an immune arteritis involving of the aorta , its major branches and the pulmonary arteries.",
+      "Congestive heart failure is the most common cause of death.",
+      "It is predominantly a disease of mid-aged males in Asia.",
+      "Open surgical treatment is better than Endovascular treatment in current era.",
+      "Glucocoticoids are the first-line agents for medical treatment."
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1187-1198",
     "difficulty": "",
@@ -144,11 +90,17 @@
     "correct": null
   },
   {
-    "id": 13,
+    "id": 6,
     "year": "2013",
     "topic": "Venous",
     "question": "下列何者非下肢深部靜脈栓塞的原因?",
-    "options": [],
+    "options": [
+      "Systemic Lupus Erythematosus",
+      "Factor V Leiden Mutation",
+      "Inflammatory Bowel Disease",
+      "Varicose veins of low limbs",
+      "Factor Xa inactivation"
+    ],
     "answer": "E",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:741-745",
     "difficulty": "",
@@ -156,11 +108,17 @@
     "correct": null
   },
   {
-    "id": 14,
+    "id": 7,
     "year": "2013",
     "topic": "Basic",
     "question": "對於檢查周邊動脈疾病(PAD)在電腦斷層血管攝影                                                                                                                            (CTA)及核磁共振血管攝影(MRA)的比較何者正確？",
-    "options": [],
+    "options": [
+      "MRA can provide dynamic imaging but CTA can't provide as well as MRA currently.",
+      "Both CTA and MRA can provide excellent -quality imaging.",
+      "For the lesions within stent previously, MRA can provid better image.",
+      "MRA may be more appropriate for patient with known or a high likelihood of heavily calcified vessels, particularly for distal runoff imaging in diabetes.",
+      "The gadolinium contrast agents of MRA has lower  risk than iodinated contrasts of CTA in the patient with renal dysfunction. So,  contrast-enhanced MRA can be applied to the dialysis patients safely."
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:367-369",
     "difficulty": "",
@@ -168,11 +126,17 @@
     "correct": null
   },
   {
-    "id": 15,
+    "id": 8,
     "year": "2013",
     "topic": "Venous",
     "question": "關於周邊動脈急性缺血的敘述何者為誤？",
-    "options": [],
+    "options": [
+      "Thrombotic occlusion is most commonly the result of progressive atheroscletic narrowing in peripheral arteries of the leg.To the secondary thrombus, it is difficult to be removed by embolectomy  or thrombolysis once the procedure be delayed.",
+      "When a patient diagnosed as acute limb ischemia suffers from profound sensory loss and paralysis, this is a irreversible contion, the decision making is between major amputation and conservative treatment,not embolectomy or thrombolytic therapy.",
+      "Most arm ischemia is due to atherosclerosis and  seldom limb threatening.",
+      "Embolism is the result of material passing through the arterial tree, usually the source of the embolus is the heart or atherosclerotic debris.",
+      "Despite active intervention, the outcome after treatment for acute limb ischemia is often poor."
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2389-2398",
     "difficulty": "",
@@ -180,11 +144,17 @@
     "correct": null
   },
   {
-    "id": 16,
+    "id": 9,
     "year": "2013",
     "topic": "Basic",
     "question": "關於Primary Raynaud's syndrome 的敘述何者正確?",
-    "options": [],
+    "options": [
+      "MRA is a gold standard of imaging studies.",
+      "Calcium channel blockers is the first-line therapy, then beta-blockers is the second line.",
+      "Heavy alcohol consumption in men is a significant risk of Raynaud's syndrome.",
+      "Most patients don't need medications, but educations about cold exposure and emotional stress.",
+      "Thoracoscopic Sympathectomy is a good option to these cases with low recurrent rate."
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page1827-1844",
     "difficulty": "",
@@ -192,13 +162,145 @@
     "correct": null
   },
   {
-    "id": 17,
+    "id": 10,
     "year": "2015",
     "topic": "Access",
     "question": "關於透析廔管(hemodialysis access), 何者為非?",
-    "options": [],
+    "options": [
+      "內膜增生(intimal hyperplasia) 剛開始發生皆在自體廔管及人工廔管的靜脈接口",
+      "自體廔管在血栓清除術後的暢通率比人工廔管低, 所以介入治療建議在栓塞形成之前",
+      "透析後的進針處出血不止常是靜脈高壓(high venous pressure)的表徵",
+      "在無鎖骨下靜脈穿刺病史的人發生central venous stenosis可能是因為同側廔管增加鎖骨下靜脈(subclavian vein)的流速導致擾流形成造成內膜增生(intimal hyperplasia)",
+      "anastomoses發生內膜增生(intimal hyperplaisa)是因為surgical trauma和flow disturbance"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1127",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 11,
+    "year": "2015",
+    "topic": "Venous",
+    "question": "關於post thrombotic syndrome何者為非?",
+    "options": [
+      "症狀包含下肢慢性疼痛, 水腫, 色素沉澱, 及鬱血性潰瘍(stasis ulceration)",
+      "發生在下肢深部靜脈栓塞之後",
+      "與靜脈回流阻塞(venous outflow obstruction)有關",
+      "與靜脈瓣逆流(venous incompetence)無關",
+      "與小腿肌肉收縮壓迫靜脈回血之功能(calf muscle pump dysfunction)有關"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.161",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 12,
+    "year": "2015",
+    "topic": "Peripheral",
+    "question": "TASC classification中對於femoropoliteal lesion何者為非?",
+    "options": [
+      "單一狹窄≦10cm 建議以open surgery治療",
+      "單一阻塞≦5cm 建議以angioplasty 治療",
+      "淺股動脈(superficial femoral artery)的慢性全段阻塞(chronic total occlusion)≧20cm 建議以open surgery 治療",
+      "膕動脈(popliteal artery)及proximal trifurcation vessels慢性全段阻塞建議以open surgery 治療",
+      "多段狹窄或阻塞總長＞15cm 目前並無確切證據顯示endovascular治療或open surgery何者較優"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1606",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 13,
+    "year": "2015",
+    "topic": "Aorta",
+    "question": "下列何者並非abdominal aorta aneurysm危險因子?",
+    "options": [
+      "smoking history",
+      "CAD",
+      "high cholestrol",
+      "DM",
+      "Old age"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1930",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 14,
+    "year": "2015",
+    "topic": "Aorta",
+    "question": "關於TEVAR使用spinal cord drainage何者為非?",
+    "options": [
+      "引流至壓力達10cm H20且避免低血壓",
+      "對於prior infrarenal aortic repair病人建議使用",
+      "對於coverage of lower thoracic aorta(T8~L2)病人不建議使用",
+      "對於coverage of L't subclavian artery且無revascularization病人建議使用",
+      "對於extensive coverage of thoracic aorta病人建議使用"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1310",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 15,
+    "year": "2015",
+    "topic": "Venous",
+    "question": "關於靜脈疾病的身體檢查何者為非?",
+    "options": [
+      "Brodie-Trendelenburg test進行時需要患者行走, Perthes test則不需要",
+      "Brodie-Trendelenburg test可區分deep or superficial venous incompetence",
+      "Perthes test可評估是否有incompetent perforating veins",
+      "Homans' sign描述當患者足部作dorsiflexion時, 小腿的疼痛代表可能有深部靜脈栓塞",
+      "位於下肢內側的靜脈區張, 其病灶可能是大隱靜脈或其穿通支"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.213  P.835",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 16,
+    "year": "2015",
+    "topic": "Aorta",
+    "question": "關於AAA使用endovascular治療後產生的endoleak何者為非?",
+    "options": [
+      "contrast-enhanced CT在arterial phase可看有無Type I 和 Type III 的 endoleak",
+      "Type II endoleak 可在 contrast CT 的 delayed phase看到",
+      "若發生Type I endoleak 可再觀察",
+      "部分Type II endoleak 在手術末期凝血功能恢復正常後會消失",
+      "大部分(80%)Type II endoleak在stent graft置放後6個月內自動消失"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1980",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 17,
+    "year": "2015",
+    "topic": "Peripheral",
+    "question": "關於腹部腔室症候群(abdominal compartment syndrome)何者為非？",
+    "options": [
+      "正常平躺時的腹內壓(intraabdominal pressure)接近0",
+      "當腹內壓達25~30 cm  H2O可造成嚴重器官失能(organ dysfunction)而導致腹部腔室症候群",
+      "危險因子包括: 大量輸血, 長時間低血壓, 低溫以及腹壁緊密縫合",
+      "臨床表徵除緊繃的腹部,心跳加快之外, 一定是低血壓",
+      "臨床表徵尚有呼吸機可察覺高high peak inspiratory pressures"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010,    P.2348",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -207,92 +309,14 @@
     "id": 18,
     "year": "2015",
     "topic": "Venous",
-    "question": "關於post thrombotic syndrome何者為非?",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.161",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 19,
-    "year": "2015",
-    "topic": "Peripheral",
-    "question": "TASC classification中對於femoropoliteal lesion何者為非?",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1606",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 20,
-    "year": "2015",
-    "topic": "Aorta",
-    "question": "下列何者並非abdominal aorta aneurysm危險因子?",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1930",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 21,
-    "year": "2015",
-    "topic": "Aorta",
-    "question": "關於TEVAR使用spinal cord drainage何者為非?",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1310",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 22,
-    "year": "2015",
-    "topic": "Venous",
-    "question": "關於靜脈疾病的身體檢查何者為非?",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.213  P.835",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 23,
-    "year": "2015",
-    "topic": "Aorta",
-    "question": "關於AAA使用endovascular治療後產生的endoleak何者為非?",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1980",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 24,
-    "year": "2015",
-    "topic": "Peripheral",
-    "question": "關於腹部腔室症候群(abdominal compartment syndrome)何者為非？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010,    P.2348",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 25,
-    "year": "2015",
-    "topic": "Venous",
     "question": "若病患為創傷造成下肢急性缺血,  經血管重建後數小時發生小腿腫脹, 劇烈疼痛且足部無脈搏, 下列何者為非?",
-    "options": [],
+    "options": [
+      "可能為因Ischemia-Reperfusion而造成腔室症候群(compartment syndrome)",
+      "嚴重須做筋膜切開術(fasciotomy)",
+      "若創傷影響膕動脈(popliteal artery)血流, compartment syndrome發生機率較創傷發生在大腿區域來的高",
+      "缺血時間大於2小時即為危險因子",
+      "創傷造成的靜脈受損導致venous outflow obstruction也可能造成腔室症候群"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010,   P.2367  P.2413",
     "difficulty": "",
@@ -300,11 +324,17 @@
     "correct": null
   },
   {
-    "id": 26,
+    "id": 19,
     "year": "2015",
     "topic": "Venous",
     "question": "下列關於deep vein thrombosis危險因子何者為非?",
-    "options": [],
+    "options": [
+      "oral contraceptives",
+      "Protein C deficiency",
+      "maligancy",
+      "ABO血型中的A型並非危險因子",
+      "Antithrombin deficiency"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010,    P.739    P.742  P.744",
     "difficulty": "",
@@ -312,13 +342,145 @@
     "correct": null
   },
   {
-    "id": 27,
+    "id": 20,
     "year": "2015",
     "topic": "Basic",
     "question": "關於血管腔內手術結束後,動脈穿刺處的處理,下列敘述何者錯誤?",
-    "options": [],
+    "options": [
+      "可選擇使用使用手按壓(manual compression)或閉合器(closure device)",
+      "若所使用導管小於 6Fr,採用手按壓時,須於穿刺處持續按壓15-20分鐘,並在按壓同時,持續觀察同側腳循環",
+      "閉合器可分為使用膠原(collagen)或促凝血劑(procoagulant)及縫線(suture-mediated)兩大類",
+      "使用縫線的閉合器優於使用膠原或促凝血劑的閉合器",
+      "血管鈣化(Vessel calcification)並非使用閉合器的絕對禁忌症"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1274, 1275",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 21,
+    "year": "2016",
+    "topic": "Aorta",
+    "question": "進行TEVAR手術時,下列何種病人較不需進行腦脊髓液引流？",
+    "options": [
+      "Treatment of acute aortic dissection with malperfusion",
+      "Extensive coverage of thoracic aorta",
+      "Coverage of left subclavian artery without revascularization",
+      "Coverage of upper thoracic aorta (above T8)",
+      "Prior infrarenal aortic repair"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1310",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 22,
+    "year": "2016",
+    "topic": "Venous",
+    "question": "取大隱靜脈來作為繞道手術材料時需注意的事項,以下何者為非？",
+    "options": [
+      "結紮分枝時,需距離靜脈壁約1-2mm",
+      "可用heparin solution保存",
+      "可施以大於150mmHg的壓力來使靜脈完全擴張",
+      "adventitial band須做適當的lysis",
+      "需採取atraumatic的手術技術"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1321",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 23,
+    "year": "2016",
+    "topic": "Aorta",
+    "question": "請問造成renal artery stenosis最常見的原因是？",
+    "options": [
+      "Fibromuscular dysplasia",
+      "Atherosclerosis",
+      "Congenital hypoplasia",
+      "Trauma",
+      "Aortic dissection"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2186",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 24,
+    "year": "2016",
+    "topic": "Peripheral",
+    "question": "TASC classification中對於femoropoliteal lesion何者為非？",
+    "options": [
+      "單一阻塞≦5cm 建議以angioplasty 治療",
+      "單一狹窄≦10cm 建議以open surgery治療",
+      "淺股動脈(superficial femoral artery)的慢性全段阻塞(chronic total occlusion)≧20cm 建議以open surgery 治療",
+      "多段狹窄或阻塞總長＞15cm 目前並無確切證據顯示endovascular治療或open surgery何者較優",
+      "膕動脈(popliteal artery)及proximal trifurcation vessels慢性全段阻塞建議以open surgery治療"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1606",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 25,
+    "year": "2016",
+    "topic": "Aorta",
+    "question": "關於AAA使用endovascular治療後產生的endoleak何者為非？",
+    "options": [
+      "大部分(80%)Type II endoleak在stent graft置放後6個月內自動消失",
+      "Type II endoleak 可在 contrast CT 的 delayed phase看到",
+      "部分Type II endoleak 在手術末期凝血功能恢復正常後會消失",
+      "若發生Type I endoleak 可再觀察",
+      "大部分(80%)Type II endoleak在stent graft置放後6個月內自動消失"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1980",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 26,
+    "year": "2016",
+    "topic": "Aorta",
+    "question": "Trans Atlantic Inter Society Consensus classification (TASC II) of aortoiliac lesions, 何者為TASC D",
+    "options": [
+      "Unilateral or bilateral single short ( 3 cm) stenosis of EIA",
+      "Short ( 3 cm) stenosis of infrarenal aorta",
+      "Bilateral EIA stenoses 3–10 cm long not extending into\nthe CFA",
+      "Unilateral occlusions of both CIA and EIA",
+      "Bilateral CIA occlusions"
+    ],
+    "answer": "Ｄ",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　1687",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 27,
+    "year": "2016",
+    "topic": "Aorta",
+    "question": "針對EVAR術後Type II Endoleak的描述，何者有誤？",
+    "options": [
+      "Type II endoleak is defined as persistent sac filling from backbleeding side branches",
+      "Postoperative CT scans show type II endoleak in 10% to 20% of patients following EVAR",
+      "In comparison with type I and type III endoleaks, type II endoleaks have a relatively benign course",
+      "80% resolving spontaneously within 6 to 12 months",
+      "Persistent type II endoleaks are usually associated\nwith a large endoleak cavity, flow between inflow and\noutflow arteries, and large patent superior mesenteric and\nlumbar arteries."
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2051, 2052",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -327,10 +489,16 @@
     "id": 28,
     "year": "2016",
     "topic": "Aorta",
-    "question": "進行TEVAR手術時,下列何種病人較不需進行腦脊髓液引流？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1310",
+    "question": "針對EVAR術後Type II Endoleak處理方法的敘述，何者有誤？",
+    "options": [
+      "Embolize the inferior mesenteric artery through the superior mesenteric artery from the Adamkiewicz artery",
+      "Cathetering between the iliac limb and the iliac artery into\nthe sac with Embolization",
+      "translumbar approach uses a direct aneurysm sac puncture technique with embolization",
+      "Retroperitoneal endoscopic ligation of the lumbar arteries",
+      "operative explant or direct ligation of the backbleeding vessel"
+    ],
+    "answer": "Ａ",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2051, 2052",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -338,11 +506,17 @@
   {
     "id": 29,
     "year": "2016",
-    "topic": "Venous",
-    "question": "取大隱靜脈來作為繞道手術材料時需注意的事項,以下何者為非？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:1321",
+    "topic": "Aorta",
+    "question": "AAA after EVAR，關於Abdominal\nCompartment Syndrome Ruptured 的描述，何者有誤？",
+    "options": [
+      "Abdominal compartment syndrome is defined as an acute and rapid elevation in intra-abdominal pressure of more than 20 mmHg",
+      "Decompression laparotomy and resuscitation are\nrecommended for intra-abdominal hypertension above 35 mm Hg",
+      "To measure this pressure, the bladder is drained and then filled with 50 to 100 mL of sterile saline",
+      "Abdominal compartment syndrome include tense distended abdomen, respiratory failure, diminished cardiac output, and oliguria",
+      "ongoing bleeding from lumbar, inferior mesenteric\narteries into the disrupted aneurysm sac, severe coagulopathy and the shock state with alterations in microvascular permeability can increase abdominal pressure even after EVAR"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2071",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -351,10 +525,16 @@
     "id": 30,
     "year": "2016",
     "topic": "Aorta",
-    "question": "請問造成renal artery stenosis最常見的原因是？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:2186",
+    "question": "關於TEVAR for Type B dissection的描述，何者正確？",
+    "options": [
+      "TEVAR becomes the current standard of care for uncomplicated type B aortic dissections",
+      "Typically, the tear in type B dissection is distal to the left common carotid artery",
+      "Intravascular ultrasound (IVUS) is unuseful for confirming true lumen or the relationship of branch vessels to the dissection flap",
+      "It is ideal to have at least 2 cm between the proximal entry tear and the proximal seal zone in order to prevent retrograde dissection into the ascending aorta.",
+      "we usually use a balloon to approximate the proximal seal zone in patients with acute dissections for better attachment"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2179, 2180",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -362,11 +542,17 @@
   {
     "id": 31,
     "year": "2016",
-    "topic": "Peripheral",
-    "question": "TASC classification中對於femoropoliteal lesion何者為非？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1606",
+    "topic": "Access",
+    "question": "關於hemodialysis catheter insertion，何者有誤？",
+    "options": [
+      "use of antiplatelet agents or systemic anticoagulation is not recommended to prevent thrombotic catheter occlusion",
+      "Local infusion of fibrinolytic agents has been used in the salvage of occluded central venous catheters",
+      "The incidence of subclavian vein stenosis after placement of  hemodialysis catheter is significantly higher than that of internal jugular vein stenosis",
+      "NKF KDOQI guidelines recommend percutaneous transluminal angioplasty with or without stent placement as the preferred treatment for central venous stenosis",
+      "transluminal angioplasty with stent placement for central venous stenosis has significantly better patency rate than without stent placement"
+    ],
+    "answer": "Ｅ",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　1105, 1106, 1107",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -374,11 +560,17 @@
   {
     "id": 32,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "關於AAA使用endovascular治療後產生的endoleak何者為非？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, P.1980",
+    "topic": "Venous",
+    "question": "下列何者非Acute venous thrombosis的ultrasound finding？",
+    "options": [
+      "hypoechoic, homogeneous, partially compressible",
+      "seen in a dilated vein, and sometimes floating",
+      "acute thrombus is spongy on compression",
+      "on color-flow examination, acute thrombus will have confluent flow channels",
+      "presence of an organized thrombus firmly adherent to the vein wall"
+    ],
+    "answer": "Ｅ",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 265, 266,  267",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -386,11 +578,17 @@
   {
     "id": 33,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "Trans Atlantic Inter Society Consensus classification (TASC II) of aortoiliac lesions, 何者為TASC D",
-    "options": [],
+    "topic": "Venous",
+    "question": "關於Thrombophlebitis的敘述，何者錯誤？",
+    "options": [
+      "may be sterile or associated with a bacterial infection",
+      "may be a marker for DVT",
+      "Most often it involves the superficial venous system, such as the great saphenous or cephalic vein",
+      "A special case of thrombophlebitis is a migratory thrombophlebitis, which was describedis specifically linked\nto gastric cancer",
+      "Mondor’s disease is superficial thrombophlebitis of the veins in the breast tissue, particularly in the upper outer quadrant."
+    ],
     "answer": "Ｄ",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　1687",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 174",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -398,11 +596,17 @@
   {
     "id": 34,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "針對EVAR術後Type II Endoleak的描述，何者有誤？",
-    "options": [],
+    "topic": "Basic",
+    "question": "以下有幾個是ischemia-reperfusion injury可能的臨床表徵？",
+    "options": [
+      "1個",
+      "2個",
+      "3個",
+      "4個",
+      "5個"
+    ],
     "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2051, 2052",
+    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 95",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -411,10 +615,15 @@
     "id": 35,
     "year": "2016",
     "topic": "Aorta",
-    "question": "針對EVAR術後Type II Endoleak處理方法的敘述，何者有誤？",
-    "options": [],
-    "answer": "Ａ",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2051, 2052",
+    "question": "下列何者非施行遠端主動脈弓胸主動脈支架時，左側鎖骨下動脈必須重建的絕對適應症？",
+    "options": [
+      "Dominant left vertebral artery",
+      "Stenotic or hypoplastic right vertebral artery",
+      "左手有洗腎廔管",
+      "支架遠端在T7 level以上"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1310",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -422,11 +631,17 @@
   {
     "id": 36,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "AAA after EVAR，關於Abdominal\nCompartment Syndrome Ruptured 的描述，何者有誤？",
-    "options": [],
+    "topic": "Basic",
+    "question": "以下何者不是Vitamin K-dependent proteins",
+    "options": [
+      "prothrombin",
+      "fibrinogen",
+      "procoagulant factor VII",
+      "procoagulant factor X",
+      "protein C, protein S"
+    ],
     "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2071",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　519",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -434,11 +649,17 @@
   {
     "id": 37,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "關於TEVAR for Type B dissection的描述，何者正確？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　2179, 2180",
+    "topic": "Basic",
+    "question": "以下何者不是 vascular endothelium的功能 :",
+    "options": [
+      "調節 vascular tone",
+      "和 capillary 的 permeability有關",
+      "分泌 protein C, protein S",
+      "參與 inflammation and immune responses",
+      "和atherosclerotic plaque的形成有關"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　520,521",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -446,11 +667,17 @@
   {
     "id": 38,
     "year": "2016",
-    "topic": "Access",
-    "question": "關於hemodialysis catheter insertion，何者有誤？",
-    "options": [],
-    "answer": "Ｅ",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page:　1105, 1106, 1107",
+    "topic": "Basic",
+    "question": "以下有關 prothromobin time assay(PT) 何者錯誤?",
+    "options": [
+      "PT用來評估 extrinsic pathway",
+      "PT用來評估 oral anticoagulant warfarin 的效用",
+      "PT用來評估病人的肝功能",
+      "PT使用 heparinized plasma來進行檢測",
+      "PT的檢測是使用 thromboplastin reagent"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　537",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -458,11 +685,17 @@
   {
     "id": 39,
     "year": "2016",
-    "topic": "Venous",
-    "question": "下列何者非Acute venous thrombosis的ultrasound finding？",
-    "options": [],
+    "topic": "Aorta",
+    "question": "有關 popliteal vein aneurysm以下描述何者錯誤?",
+    "options": [
+      "通常沒有症狀, 不需治療",
+      "較大的popliteal venous aneurysm可能有mass effect,有壓迫感或異物感",
+      "比較嚴重的併發症為 thrombus formation 並造成 pulmonary embolism",
+      "大部分有症狀的病人都曾經有 thromoboembolic events",
+      "合併 pulmonary embolism 的病人應該使用anticoagulant treatment; 手術治療沒有用"
+    ],
     "answer": "Ｅ",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 265, 266,  267",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:307,308, 309",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -471,10 +704,16 @@
     "id": 40,
     "year": "2016",
     "topic": "Venous",
-    "question": "關於Thrombophlebitis的敘述，何者錯誤？",
-    "options": [],
-    "answer": "Ｄ",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 174",
+    "question": "有關 venous tumors 以下描述何者正確 :",
+    "options": [
+      "常見的 primary venous tumor 多為良性",
+      "最常見的 primary venous malignancy 為 venous leiomyosarcoma",
+      "Superior vena cava primary tumor 通常可以開刀治療, 並需要 vena cava reconstruction",
+      "Primary venous tumor 遠多於 secondary venous tumors",
+      "形成intra-caval tumor thrombus 最多的為hepatoma"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 983,984,985",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -482,11 +721,17 @@
   {
     "id": 41,
     "year": "2016",
-    "topic": "Basic",
-    "question": "以下有幾個是ischemia-reperfusion injury可能的臨床表徵？",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 8th ed. 2014, Page: 95",
+    "topic": "Venous",
+    "question": "以下何者不是 superficial venous thrombophlebitis 的 predisposing factors",
+    "options": [
+      "Varicose veins (varicosities)",
+      "Protein C and protein S deficiency",
+      "Malignancies",
+      "Hypertension",
+      "Buerger's disease"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　997",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -494,11 +739,17 @@
   {
     "id": 42,
     "year": "2016",
-    "topic": "Aorta",
-    "question": "下列何者非施行遠端主動脈弓胸主動脈支架時，左側鎖骨下動脈必須重建的絕對適應症？",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1310",
+    "topic": "Venous",
+    "question": "以下有關 superficial venous thrombophlebitis (SVT) 的敘述,  何者錯誤?",
+    "options": [
+      "6%~44% 的病人會同時 併發 deep venous thrombosis",
+      "20%~33%的病人同時發生 asymptomatic pulmonary embolism（PE）",
+      "２％～13％的病人同時發生 symptomatic pulmonary embolism (PE)",
+      "Superficial venous thrombophlebitis 是一個 self-limited disease",
+      "SVT多數發生於 great saphenous vein及其分枝"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　997",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -506,11 +757,17 @@
   {
     "id": 43,
     "year": "2016",
-    "topic": "Basic",
-    "question": "以下何者不是Vitamin K-dependent proteins",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　519",
+    "topic": "Venous",
+    "question": "治療一般 acute deep venous thrombosis ( especially iliofemoral DVT and infra-inguinal DVT) 目前認為最合理最好的方式為:",
+    "options": [
+      "medical treatment with anticoagulant therapy",
+      "medical treatment with systemic thrombolytic therapy and anticoagulant therapy",
+      "endovascular mechanical thrombectomy and anti-coagulant therapy",
+      "ultra-sound accelerated thrombolysis and anti-coagulant therapy",
+      "anti-coagulant therapy and contemporary operative venous thrombectomy"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 793~799",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -518,11 +775,17 @@
   {
     "id": 44,
     "year": "2016",
-    "topic": "Basic",
-    "question": "以下何者不是 vascular endothelium的功能 :",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　520,521",
+    "topic": "Venous",
+    "question": "治療一般 acute deep venous thrombosis 若考慮做 operative venous thrombectomy, 以下何者錯誤",
+    "options": [
+      "手術中使用 unfractional heparin",
+      "手術前應做全身性CT venogram,包括 chest, abdomen 及pelvis",
+      "手術前先裝置 vena caval filters, 或術中使用 vena caval ballon occlusion, 為合理的做法",
+      "手術必須有 fluoroscopic guidance",
+      "去除血塊時, 先進行 iliofemoral venous thrombectomy 再進行infra-inguinal venous thrombectomy"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 799~802",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -530,11 +793,17 @@
   {
     "id": 45,
     "year": "2016",
-    "topic": "Basic",
-    "question": "以下有關 prothromobin time assay(PT) 何者錯誤?",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　537",
+    "topic": "Aorta",
+    "question": "有關腹主動脈瘤術後併發結腸缺血(colon ischemia)的敘述何者錯誤？",
+    "options": [
+      "接受常規腹主動脈瘤手術的患者,例行使用內視鏡監測,亦有4.5%到11.4%的發生率於未破裂者",
+      "硬式乙狀結腸鏡(rigid sigmoidoscopy)是良好的診斷工具",
+      "術後併發生結腸缺血患者,僅有30%會表現典型的出血性腹瀉(bloody diarrhea)",
+      "腸缺血若發展至全層壞死(full-thickness necrosis),患者死亡率高達80%到100%",
+      "破裂的腹主動脈瘤術後發生結腸缺血的機會高"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1965,1966",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -543,10 +812,16 @@
     "id": 46,
     "year": "2016",
     "topic": "Aorta",
-    "question": "有關 popliteal vein aneurysm以下描述何者錯誤?",
-    "options": [],
-    "answer": "Ｅ",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:307,308, 309",
+    "question": "有關血管腔內胸主動脈瘤手術(TEVAR)前施行脊髓引流的適應症,下列何者為非?",
+    "options": [
+      "Treatment of chronic aortic dissection",
+      "Prior infrarenal aortic repair",
+      "Extensive coverage of thoracic aorta",
+      "Coverage of left subclavian artery without revascularization",
+      "Coverage of lower thoracic aorta (T8-L2; common site of artery of Adamkiewicz)"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 86]",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -554,11 +829,17 @@
   {
     "id": 47,
     "year": "2016",
-    "topic": "Venous",
-    "question": "有關 venous tumors 以下描述何者正確 :",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 983,984,985",
+    "topic": "Peripheral",
+    "question": "下列何者為急性肢體缺血(acute limb ischemia)患者不適合行再灌流(revascularization)手術？",
+    "options": [
+      "患者同時合併心臟衰竭",
+      "尚未做血管攝影",
+      "已經栓塞8小時",
+      "已在注射肝素(heparin)",
+      "患側肢體已喪失運動功能"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　2399",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -567,10 +848,16 @@
     "id": 48,
     "year": "2016",
     "topic": "Venous",
-    "question": "以下何者不是 superficial venous thrombophlebitis 的 predisposing factors",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　997",
+    "question": "下列何者不是深部靜脈栓塞的臨床表現",
+    "options": [
+      "Homans' sign",
+      "Stemmer's sign",
+      "Bancroft's sign",
+      "藍腿症(phlegmasia cerulea dolens)",
+      "白腿症(phlegmasia alba dolens)"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　213, 755, 1007, 1008",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -578,11 +865,17 @@
   {
     "id": 49,
     "year": "2016",
-    "topic": "Venous",
-    "question": "以下有關 superficial venous thrombophlebitis (SVT) 的敘述,  何者錯誤?",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　997",
+    "topic": "Access",
+    "question": "關於血液透析血管通路(Hemodialysis access)下列敘述何者錯誤？",
+    "options": [
+      "無論短期或長期透析導管均應避免置放於鎖骨下靜脈(subclavian vein)",
+      "短期透析導管若經由內頸靜脈(internal jugular vein)置放,導管末端宜置於右心房-上腔靜脈交界稍上方處",
+      "短期透析導管為不帶袖(non-cuff), 留置時間以不超過1個月為原則",
+      "長期透析導管血栓生成導因於纖維蛋白鞘(intraluminal fibrin sheath)生成",
+      "長期透析導管若經由內頸靜脈(internal jugular vein)置放,導管末端宜置於右心房"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 72]",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -590,11 +883,17 @@
   {
     "id": 50,
     "year": "2016",
-    "topic": "Venous",
-    "question": "治療一般 acute deep venous thrombosis ( especially iliofemoral DVT and infra-inguinal DVT) 目前認為最合理最好的方式為:",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 793~799",
+    "topic": "Basic",
+    "question": "使用血流超音波評估周邊動脈疾病時,波形呈現單相波形(monophasic)合併peak systolic velocity 200-300cm/sec,代表動脈出現何種程度的狹窄病灶?",
+    "options": [
+      "<20%",
+      "20-49%",
+      "50-75%",
+      ">75%",
+      ">90%"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 15] Table 15-6",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -602,11 +901,17 @@
   {
     "id": 51,
     "year": "2016",
-    "topic": "Venous",
-    "question": "治療一般 acute deep venous thrombosis 若考慮做 operative venous thrombectomy, 以下何者錯誤",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 799~802",
+    "topic": "Peripheral",
+    "question": "下列何者是屬於TASC II type A lesion？",
+    "options": [
+      "單側或雙側總髂動脈(common iliac artery)狹窄",
+      "單側總髂動脈(common iliac artery)阻塞",
+      "單側外髂動脈(external iliac artery)狹窄,總長3-10公分且未延伸至總股動脈(common femoral artery)",
+      "單側總髂動脈阻塞",
+      "單側外髂動脈阻塞"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1606",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -615,92 +920,14 @@
     "id": 52,
     "year": "2016",
     "topic": "Aorta",
-    "question": "有關腹主動脈瘤術後併發結腸缺血(colon ischemia)的敘述何者錯誤？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1965,1966",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 53,
-    "year": "2016",
-    "topic": "Aorta",
-    "question": "有關血管腔內胸主動脈瘤手術(TEVAR)前施行脊髓引流的適應症,下列何者為非?",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 86]",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 54,
-    "year": "2016",
-    "topic": "Peripheral",
-    "question": "下列何者為急性肢體缺血(acute limb ischemia)患者不適合行再灌流(revascularization)手術？",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　2399",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 55,
-    "year": "2016",
-    "topic": "Venous",
-    "question": "下列何者不是深部靜脈栓塞的臨床表現",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　213, 755, 1007, 1008",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 56,
-    "year": "2016",
-    "topic": "Access",
-    "question": "關於血液透析血管通路(Hemodialysis access)下列敘述何者錯誤？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 72]",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 57,
-    "year": "2016",
-    "topic": "Basic",
-    "question": "使用血流超音波評估周邊動脈疾病時,波形呈現單相波形(monophasic)合併peak systolic velocity 200-300cm/sec,代表動脈出現何種程度的狹窄病灶?",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　 [Chapter 15] Table 15-6",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 58,
-    "year": "2016",
-    "topic": "Peripheral",
-    "question": "下列何者是屬於TASC II type A lesion？",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1606",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 59,
-    "year": "2016",
-    "topic": "Aorta",
     "question": "關於人體動脈的側枝循環(Collateral Arteries)下列敘述何者錯誤？",
-    "options": [],
+    "options": [
+      "上肢的側枝循環:可分為內側、外側、前側三個系統",
+      "內頸動脈(internal carotid artery)經威氏環(circle of Willis)與基底動脈(basilar artery)相連",
+      "內臟側枝循環:腹腔動脈幹(celiac trunk)於右方經胰指腸環(Pancreaticoduodenal arcades)與上腸繫膜動脈(superior mesentary artery)相連",
+      "若主動脈阻塞合併下腸繫膜動脈(inferior mesentary artery)開口阻塞:上腸繫膜動脈(superior mesentary artery)可經由下腸繫膜動脈(inferior mesentary artery)與痔動脈(hemorrhoidal arteries)與內髂動脈(internal iliac artery)相連",
+      "若遠端主動脈阻塞:下腸繫膜動脈(inferior mesentary artery)可經由下直腸動脈(inferior rectal artery)、中直腸動脈(middle ectal artery)及上直腸動脈(superior rectal artery)與內髂動脈(internal iliac artery)相連"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　103",
     "difficulty": "",
@@ -708,11 +935,17 @@
     "correct": null
   },
   {
-    "id": 60,
+    "id": 53,
     "year": "2016",
     "topic": "Venous",
     "question": "關於急性腸繫膜缺血(acute mesentary ischemia)\n(1)急性腸繫膜缺血即使經過外科手術再灌流(surgical revascularization,死亡率仍高達31%\n(2)依病理生理(pathophysiologic)分類可分為:動脈栓塞(arterial embolism),動脈血栓(arterial thrombosis),非阻塞性腸繫膜缺血(non-occlusive mesenteric ischemia)\n(3)腸繫血管攣縮(vasospasm),特別是在上腸繫膜動脈(superior mesentary artery),是發生非阻塞性腸繫膜缺血的必要條件\n(4)非阻塞性腸繫膜缺血預後最差,手術後死亡率高達80%",
-    "options": [],
+    "options": [
+      "(1)(2)(3)皆正確",
+      "(1)(3)皆正確",
+      "(2)(4)皆正確",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
     "answer": "E",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　2262, 2270, 2290",
     "difficulty": "",
@@ -720,11 +953,17 @@
     "correct": null
   },
   {
-    "id": 61,
+    "id": 54,
     "year": "2016",
     "topic": "Aorta",
     "question": "下列有關腹主動脈瘤的敘述,何者為非?",
-    "options": [],
+    "options": [
+      "男性比女性有較高的盛行率",
+      "破裂時的平均直徑約為8.6公分",
+      "直徑達5公分以上時,建議接受治療,因為5公分以下的動脈瘤沒有破裂風險",
+      "抽菸是最重要的危險因子",
+      "有可能一個家族中有許多成員都有腹主動脈瘤"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1929-1930",
     "difficulty": "",
@@ -732,11 +971,17 @@
     "correct": null
   },
   {
-    "id": 62,
+    "id": 55,
     "year": "2016",
     "topic": "Aorta",
     "question": "有很多原因會造成胸主動脈瘤,下列原因何者為非?",
-    "options": [],
+    "options": [
+      "剝離性主動脈瘤在台灣是常見的原因",
+      "在結締組織疾病相關的主動脈瘤中,以馬凡氏症候群為最常見",
+      "感染症亦有可能造成胸主動脈瘤",
+      "Takayasu arteritis也可能會造成胸主動脈瘤",
+      "穿透性潰瘍(PAU)並不會造成假性動脈瘤(false aneurysm)"
+    ],
     "answer": "E",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　2032-2033",
     "difficulty": "",
@@ -744,11 +989,17 @@
     "correct": null
   },
   {
-    "id": 63,
+    "id": 56,
     "year": "2016",
     "topic": "Peripheral",
     "question": "下列有關危急性肢體缺血(critical limb ischemia, CLI)的敘述,何者為非?",
-    "options": [],
+    "options": [
+      "足部沒有歷久未癒之傷口就不算是critical limb ischemia",
+      "於診斷CLI之後的半年內死亡率可達20%",
+      "存活並且沒有被截肢的比率只有40%",
+      "中風與心肌梗塞是這些患者最重要的死亡原因",
+      "抽菸與糖尿病是最主要的危險因子"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1578-1581",
     "difficulty": "",
@@ -756,11 +1007,17 @@
     "correct": null
   },
   {
-    "id": 64,
+    "id": 57,
     "year": "2016",
     "topic": "Venous",
     "question": "下肢急性深部靜脈栓塞(deep vein thrombosis, DVT)有許多危險因子,下列敘述何者為非?",
-    "options": [],
+    "options": [
+      "年紀越大,acute DVT的發生率(Incidence)不見得隨之增加",
+      "有約20%的acute DVT是因為惡性疾病所引起",
+      "\"經濟艙症候群\"指的就是acute DVT",
+      "有acute DVT病史的患者,再度發生 acute DVT的機會也會較高",
+      "膝關節置換後數周內罹患此病的機會也較高"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1578-1581",
     "difficulty": "",
@@ -768,11 +1025,17 @@
     "correct": null
   },
   {
-    "id": 65,
+    "id": 58,
     "year": "2016",
     "topic": "Access",
     "question": "透析廔管側的肢體竊血症候群(steal syndrome)是洗腎患者常遇到的問題,下列敘述何者為非?",
-    "options": [],
+    "options": [
+      "一定是廔管內血流過大,才會導致末梢缺血",
+      "\"Banding\"是一種手術治療的方式",
+      "Distal revascularization-Interval ligation是治療的一種手術方法",
+      "Revision using distal inflow是有效的手術治療方法",
+      "單純由廔管做血管攝影通常無法得到有效診斷"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　1143-1144",
     "difficulty": "",
@@ -780,11 +1043,17 @@
     "correct": null
   },
   {
-    "id": 66,
+    "id": 59,
     "year": "2016",
     "topic": "Basic",
     "question": "下列有關人體動脈的生理學敘述,何者為非?",
-    "options": [],
+    "options": [
+      "正常的動脈流速波形是triphasic",
+      "動脈內呈現monophasic波形時,常常表示近端血管有狹窄",
+      "測量ankle-brachial index (ABI)時,數據大於1.0即表示完全正常",
+      "ABI小於0.4是嚴重的周邊動脈阻塞疾病",
+      "ABI測量時,手臂血壓值採左手或右手皆可,挑數值較高的那一側"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　217-219",
     "difficulty": "",
@@ -792,11 +1061,17 @@
     "correct": null
   },
   {
-    "id": 67,
+    "id": 60,
     "year": "2016",
     "topic": "Basic",
     "question": "以下關於各種血管image study的敘述,何者為非?",
-    "options": [],
+    "options": [
+      "CTA是很方便的檢查,但因需要大量含碘顯影劑,故腎臟功能不良者較不適用",
+      "使用二氧化碳進行血管攝影的原理是降低radiodensity以創造出對比",
+      "使用二氧化碳進行下肢動脈攝影時,頭高腳低的姿勢可做出較好的影像品質",
+      "Gadolinum也可做為顯影劑之用",
+      "用二氧化碳做腹腔內動脈血管攝影前,可考慮使用simethicone (gasone)來減少干擾,提高影像品質"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page:　217-219",
     "difficulty": "",
@@ -804,11 +1079,17 @@
     "correct": null
   },
   {
-    "id": 68,
+    "id": 61,
     "year": "2016",
     "topic": "Peripheral",
     "question": "急性肢體缺血(Acute limb ischemia)跟慢性肢體缺血有相當大的不同,以下敘述何者為非?",
-    "options": [],
+    "options": [
+      "依據是否有resting pain或non-healing wound來做嚴重度分類",
+      "血栓(Emboli)是最常見的原因",
+      "延遲處理常有較多併發症,如腔室症候群等",
+      "使用抗凝血劑的角色更加重要",
+      "血栓溶解治療是可採行的方式,但要詳細評估出血風險"
+    ],
     "answer": "A",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 2393-2395",
     "difficulty": "",
@@ -816,11 +1097,17 @@
     "correct": null
   },
   {
-    "id": 69,
+    "id": 62,
     "year": "2016",
     "topic": "Access",
     "question": "「血栓溶解劑」常用來解決動脈,深部靜脈,或洗腎人工血管栓塞。使用urokinase溶解血栓時,下列何者是”最不常見”的併發症?",
-    "options": [],
+    "options": [
+      "穿刺處出血",
+      "遠端肢體血栓",
+      "腦出血",
+      "肺栓塞",
+      "嚴重過敏反應"
+    ],
     "answer": "E",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 558-561",
     "difficulty": "",
@@ -828,11 +1115,17 @@
     "correct": null
   },
   {
-    "id": 70,
+    "id": 63,
     "year": "2016",
     "topic": "Venous",
     "question": "大隱靜脈在股靜脈交界處(saphenofemoral  junction)發生逆流,是形成下肢靜脈曲張的主因，high ligation是有效的治療方式，但若有些分枝未被確實紮除掉，就可能會引起靜脈曲張復發，下列何者為非？",
-    "options": [],
+    "options": [
+      "superficial circumflex iliac vein",
+      "lateral accessory saphenous vein",
+      "deep internal pudendal vein",
+      "medial accessory saphenous vein",
+      "superficial external pudendal vein"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, 7th ed. 2010, Page: 861-862",
     "difficulty": "",
@@ -840,109 +1133,289 @@
     "correct": null
   },
   {
+    "id": 64,
+    "year": "2020",
+    "topic": "Access",
+    "question": "血液透析導管的近心端開口有各種不同的設計，以利達到最大透析血流量，同時避免再循環與吸附血管壁，下列何者不是血液透析導管的近心端開口的設計？",
+    "options": [
+      "Step tip",
+      "Diamond tip",
+      "Split tip",
+      "Dual catheter",
+      "Symmetric tip"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2316",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 65,
+    "year": "2020",
+    "topic": "Access",
+    "question": "腎臟病患應該在chronic kidney disease(CKD)第幾期時轉介至血管外科接受透析通路手術？",
+    "options": [
+      "CKD stage 1",
+      "CKD stage 2",
+      "CKD stage 3",
+      "CKD stage 4",
+      "CKD stage 5"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 175, p2290",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 66,
+    "year": "2020",
+    "topic": "Access",
+    "question": "下列何風險因子與血液透析廔管的通暢率無關？",
+    "options": [
+      "Gender",
+      "Age",
+      "DM",
+      "Smoking",
+      "Anemia"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 175, p2291",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 67,
+    "year": "2020",
+    "topic": "Access",
+    "question": "何者不是左無名靜脈(left innominate vein)阻塞時合理的血液透析通路的選擇？",
+    "options": [
+      "Right brachio-axillary AVG",
+      "Left axillary-contralateral axillary AVG",
+      "Left brachio-left internal jugular AVG",
+      "Right radiocephalic AVF",
+      "Right internal jugular tunneled catheter"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 68,
+    "year": "2020",
+    "topic": "Access",
+    "question": "關於KDOQI\"rule of 6s\"的敘述，下列何者為非？",
+    "options": [
+      "Venous Pressure < 60 mmHg",
+      "Flow > 600 cc/min",
+      "Depth < 6mm",
+      "Diameter > 6mm",
+      "是廔管成熟與否的指標"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 178, p2328",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 69,
+    "year": "2020",
+    "topic": "Access",
+    "question": "Seroma是人工動靜脈廔管的併發症之一，下列何者是它最常發生的位置？",
+    "options": [
+      "Arterial anastomosis",
+      "Venous anastomosis",
+      "Arterial canulation zone",
+      "Venous cannulation zone",
+      "Outflow vein"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2338",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
+    "id": 70,
+    "year": "2020",
+    "topic": "Access",
+    "question": "陳先生是使用左手上臂的brachioaxillary AVG進行透析，近來出現透析中左手疼痛的症狀，下列可能的鑑別診斷，何者為非？",
+    "options": [
+      "Steal syndrome",
+      "Venous hypertension",
+      "Toxic neuropathy",
+      "Carpal tunnel syndrome",
+      "Ischemic monomelic neuropathy"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2340",
+    "difficulty": "",
+    "practiced": false,
+    "correct": null
+  },
+  {
     "id": 71,
-    "year": "2016",
-    "topic": "Aorta",
-    "question": "以下關於腹主動脈瘤的敘述何者錯誤",
-    "options": [],
-    "answer": "Ｄ",
-    "ref": "p.1922,1923,1945,1954,1980",
+    "year": "2020",
+    "topic": "Access",
+    "question": "當廔管血流量最少佔心輸出量多少百分比以上，心衰竭的風險就大幅提高？",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answer": "C",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2347",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 72,
-    "year": "2016",
-    "topic": "Aorta",
-    "question": "以下關於胸主動脈瘤的敘述何者錯誤",
-    "options": [],
-    "answer": "Ｄ",
-    "ref": "p.1924，2016，2017，2056",
+    "year": "2020",
+    "topic": "Access",
+    "question": "什麼樣的病人容易出現coronary steal syndrome？",
+    "options": [
+      "RCA stent stenosis with high left arm AVF flow",
+      "Post-total arterial CABG with high left arm AVF flow",
+      "Severe AR(aortic regurgitation) with high left arm AVF flow",
+      "LM stent stenosis with high left arm AVF flow",
+      "Severe MR(mitral regurgitation) with high right arm AVF flow"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2347",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 73,
-    "year": "2016",
-    "topic": "Peripheral",
-    "question": "關於TASC的aortoiliac lesions分類，以下何者為Type C的lesions",
-    "options": [],
-    "answer": "C",
-    "ref": "p.1669",
+    "year": "2020",
+    "topic": "Access",
+    "question": "血液透析廔管感染，最常見的菌種為何？",
+    "options": [
+      "Staphylococcus aureus",
+      "Streptococcus pneumoniae",
+      "Salmonella typhi",
+      "Klebsiella pneumoniae",
+      "Candida albican"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2336",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 74,
-    "year": "2016",
-    "topic": "Venous",
-    "question": "關於慢性靜脈疾病(chronic venous disease)的CEAP分類，以下何者為C3",
-    "options": [],
-    "answer": "C",
-    "ref": "p.835",
+    "year": "2020",
+    "topic": "Access",
+    "question": "AVF/AVG的static venous pressure超過mean arterial pressure多少以上即認為有異常",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 178, p2327",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 75,
-    "year": "2016",
-    "topic": "Peripheral",
-    "question": "李先生因為左下肢跛行，而至門診求診，經醫師診視之後，幫他安排臂肱指數(ABI)檢查，檢測出來血壓如下\n左上臂95 mmHg    右上臂120 mmHg\n左足踝90mmHg       右足踝 100 mmHg\n請問李先生測出來的ABI是屬於周邊動脈疾病的哪一個程度",
-    "options": [],
+    "year": "2020",
+    "topic": "Access",
+    "question": "診斷central vein stenosis的gold standard為何？",
+    "options": [
+      "Physical examination",
+      "Color-flow venous Duplex",
+      "CT venography",
+      "Catheter-based contrast venography",
+      "MR venography"
+    ],
     "answer": "D",
-    "ref": "p219",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2317",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 76,
-    "year": "2016",
-    "topic": "Carotid",
-    "question": "關於頸動脈疾病的治療，以下敘述何者錯誤？",
-    "options": [],
-    "answer": "C",
-    "ref": "p.1443-1445,1473,1475",
+    "year": "2020",
+    "topic": "Access",
+    "question": "Tunneled dialysis catheter insertion的首選位置為何？",
+    "options": [
+      "Right internal jugular vein",
+      "Left internal jugular vein",
+      "Right subclavian vein",
+      "Left subclavian vein",
+      "Right common femoral vein"
+    ],
+    "answer": "A",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2317",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 77,
-    "year": "2016",
-    "topic": "Peripheral",
-    "question": "關於急性肢體缺血(acute limb ischemia)的敘述，以下何者錯誤",
-    "options": [],
-    "answer": "C",
-    "ref": "p2389-2397",
+    "year": "2020",
+    "topic": "Access",
+    "question": "Hemodialysis reliable outflow(HeRO) device是用在哪一類的患者？",
+    "options": [
+      "Subclavian artery stenosis",
+      "Steal syndrome",
+      "Seroma",
+      "Central vein stenosis",
+      "AVG infection"
+    ],
+    "answer": "D",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2306",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 78,
-    "year": "2016",
-    "topic": "Aorta",
-    "question": "關於胸主動脈支架的敘述，何者錯誤？",
-    "options": [],
-    "answer": "D",
-    "ref": "p.2054-2067",
+    "year": "2020",
+    "topic": "Access",
+    "question": "關於arterial-arterial hemodialysis access procedure的敘述，何者為非？",
+    "options": [
+      "可用於靜脈資源耗竭的患者",
+      "可用於心臟衰竭的患者",
+      "有axillary-axillary artery interposition with PTFE graft的作法",
+      "有femoral-femoral artery interposition with PTFE graft的作法",
+      "進行此類手術不可將動脈截斷與PTFE graft做end-to-end anastomosis，否則將造成肢端缺血"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2310",
     "difficulty": "",
     "practiced": false,
     "correct": null
   },
   {
     "id": 79,
-    "year": "2016",
-    "topic": "Venous",
-    "question": "關於表淺靜脈炎(superficial venous thrombophlebitis)的敘述何者錯誤",
-    "options": [],
-    "answer": "A",
-    "ref": "p997-999",
+    "year": "2020",
+    "topic": "Access",
+    "question": "關於lowe limb AVG的敘述，何者為非？",
+    "options": [
+      "Infection rate較upper limb AVG要高",
+      "Mid-thigh looped AVG的感染率比groin AVG高",
+      "有limb ischemia的風險",
+      "適用於central vein stenosis的病人",
+      "肥胖是此類AVG出現併發症的危險因子"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2308",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -951,10 +1424,16 @@
     "id": 80,
     "year": "2020",
     "topic": "Access",
-    "question": "血液透析導管的近心端開口有各種不同的設計，以利達到最大透析血流量，同時避免再循環與吸附血管壁，下列何者不是血液透析導管的近心端開口的設計？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2316",
+    "question": "針對hemodialysis access related distal limb ischemia，可以採取何種手術來治療？\"                              \n(1) PAI (proximalization of arterial inflow)\n(2) DRIL (distal revascularization-interval ligation)\n(3) DRAL (dsital radial artery ligation)\n(4) RUDI (revision using distal inflow)",
+    "options": [
+      "僅(1)(2)(3)正確",
+      "僅(1)(3)正確",
+      "僅(2)(4)正確",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
+    "answer": "E",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2340-2341",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -963,10 +1442,16 @@
     "id": 81,
     "year": "2020",
     "topic": "Access",
-    "question": "腎臟病患應該在chronic kidney disease(CKD)第幾期時轉介至血管外科接受透析通路手術？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 175, p2290",
+    "question": "末期腎臟病患者因為凝血功能異常，容易造成術中出血，下列哪些是末期腎臟病患者凝血功能異常的原因？\"                              \n(1) Platelet dysfunction\n(2) Factor II deficiency\n(3) Anemia\n(4) Fibrinogen deficiency",
+    "options": [
+      "僅(1)(2)(3)正確",
+      "僅(1)(3)正確",
+      "僅(2)(4)正確",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
+    "answer": "B",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2335",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -975,10 +1460,16 @@
     "id": 82,
     "year": "2020",
     "topic": "Access",
-    "question": "下列何風險因子與血液透析廔管的通暢率無關？",
-    "options": [],
+    "question": "靜脈資源耗竭的病患，還有哪些tunneled dialysis catheter placement的選擇？\"                              \n(1) Transthoracic SVC catheter\n(2) Transhepatic IVC catheter\n(3) Translumbar IVC catheter\n(4) Transgluteal IVC catheter",
+    "options": [
+      "僅(1)(2)(3)正確",
+      "僅(1)(3)正確",
+      "僅(2)(4)正確",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
     "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 175, p2291",
+    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2311-2312",
     "difficulty": "",
     "practiced": false,
     "correct": null
@@ -987,200 +1478,14 @@
     "id": 83,
     "year": "2020",
     "topic": "Access",
-    "question": "何者不是左無名靜脈(left innominate vein)阻塞時合理的血液透析通路的選擇？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 84,
-    "year": "2020",
-    "topic": "Access",
-    "question": "關於KDOQI\"rule of 6s\"的敘述，下列何者為非？",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 178, p2328",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 85,
-    "year": "2020",
-    "topic": "Access",
-    "question": "Seroma是人工動靜脈廔管的併發症之一，下列何者是它最常發生的位置？",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2338",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 86,
-    "year": "2020",
-    "topic": "Access",
-    "question": "陳先生是使用左手上臂的brachioaxillary AVG進行透析，近來出現透析中左手疼痛的症狀，下列可能的鑑別診斷，何者為非？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2340",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 87,
-    "year": "2020",
-    "topic": "Access",
-    "question": "當廔管血流量最少佔心輸出量多少百分比以上，心衰竭的風險就大幅提高？",
-    "options": [],
-    "answer": "C",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2347",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 88,
-    "year": "2020",
-    "topic": "Access",
-    "question": "什麼樣的病人容易出現coronary steal syndrome？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2347",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 89,
-    "year": "2020",
-    "topic": "Access",
-    "question": "血液透析廔管感染，最常見的菌種為何？",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2336",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 90,
-    "year": "2020",
-    "topic": "Access",
-    "question": "AVF/AVG的static venous pressure超過mean arterial pressure多少以上即認為有異常",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 178, p2327",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 91,
-    "year": "2020",
-    "topic": "Access",
-    "question": "診斷central vein stenosis的gold standard為何？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2317",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 92,
-    "year": "2020",
-    "topic": "Access",
-    "question": "Tunneled dialysis catheter insertion的首選位置為何？",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 177, p2317",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 93,
-    "year": "2020",
-    "topic": "Access",
-    "question": "Hemodialysis reliable outflow(HeRO) device是用在哪一類的患者？",
-    "options": [],
-    "answer": "D",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2306",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 94,
-    "year": "2020",
-    "topic": "Access",
-    "question": "關於arterial-arterial hemodialysis access procedure的敘述，何者為非？",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2310",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 95,
-    "year": "2020",
-    "topic": "Access",
-    "question": "關於lowe limb AVG的敘述，何者為非？",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2308",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 96,
-    "year": "2020",
-    "topic": "Access",
-    "question": "針對hemodialysis access related distal limb ischemia，可以採取何種手術來治療？\"                              \n(1) PAI (proximalization of arterial inflow)\n(2) DRIL (distal revascularization-interval ligation)\n(3) DRAL (dsital radial artery ligation)\n(4) RUDI (revision using distal inflow)",
-    "options": [],
-    "answer": "E",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2340-2341",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 97,
-    "year": "2020",
-    "topic": "Access",
-    "question": "末期腎臟病患者因為凝血功能異常，容易造成術中出血，下列哪些是末期腎臟病患者凝血功能異常的原因？\"                              \n(1) Platelet dysfunction\n(2) Factor II deficiency\n(3) Anemia\n(4) Fibrinogen deficiency",
-    "options": [],
-    "answer": "B",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 179, p2335",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 98,
-    "year": "2020",
-    "topic": "Access",
-    "question": "靜脈資源耗竭的病患，還有哪些tunneled dialysis catheter placement的選擇？\"                              \n(1) Transthoracic SVC catheter\n(2) Transhepatic IVC catheter\n(3) Translumbar IVC catheter\n(4) Transgluteal IVC catheter",
-    "options": [],
-    "answer": "A",
-    "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2311-2312",
-    "difficulty": "",
-    "practiced": false,
-    "correct": null
-  },
-  {
-    "id": 99,
-    "year": "2020",
-    "topic": "Access",
     "question": "關於pediatric vascular access的敘述，何者正確？\"                              \n(1) 病患血管較小，應首選AVG\n(2) 不應使用tunneled dialysis catheter\n(3) Pediatric ESRD病患多選擇peritoneal dialysis\n(4) 根據USRDS報告，23%病人在一年內會接受腎臟移植",
-    "options": [],
+    "options": [
+      "僅(1)(2)(3)正確",
+      "僅(1)(3)正確",
+      "僅(2)(4)正確",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, 9th edition, Chapter 176, p2313",
     "difficulty": "",
@@ -1188,11 +1493,17 @@
     "correct": null
   },
   {
-    "id": 100,
+    "id": 84,
     "year": "2022",
     "topic": "Basic",
     "question": "下列對DOACs(Direct oral anticoagulants)的敘述，何者錯誤?",
-    "options": [],
+    "options": [
+      "是 factor Xa inhibitor",
+      "基本上規則服藥時不必常規monitor，但如果需要的話可以追蹤prothrombin time",
+      "DOACs較warfarin易引發intracranial bleeding",
+      "目前仍不建議使用於金屬瓣膜置換術後的routine anticoagulant",
+      "所有的DOACs都會經過胎盤，所以在懷孕時不建議使用。"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, Chapter 39, p1781-1795",
     "difficulty": "",
@@ -1200,11 +1511,17 @@
     "correct": null
   },
   {
-    "id": 101,
+    "id": 85,
     "year": "2022",
     "topic": "Aorta",
     "question": "目前主動脈支架已廣泛使用，若病人罹患胸主動脈瘤若接近左鎖骨下動脈，請下列敘述何者正確?",
-    "options": [],
+    "options": [
+      "上述病患為主動脈支架放置的絕對禁忌症。",
+      "左鎖骨下動脈無臨床上重要功能，手術中可直接犧牲。",
+      "左鎖骨下動脈仍需盡可能保留，保留方式僅有行左鎖骨下動脈-左頸動脈繞道術一種方式。",
+      "若行左鎖骨下動脈-左頸動脈繞道術，左鎖骨下動脈近端需要結紮。",
+      "若犧牲左鎖骨下動脈，會導致左上肢缺血壞死。"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, Chapter78, p3406-3409",
     "difficulty": "",
@@ -1212,11 +1529,17 @@
     "correct": null
   },
   {
-    "id": 102,
+    "id": 86,
     "year": "2022",
     "topic": "Aorta",
     "question": "關於腹主動脈瘤破裂(Rupture of Abdominal aorticaneurysm)的治療，以下何者錯誤？",
-    "options": [],
+    "options": [
+      "病患通常會有休克的症狀，但為避免出血量過多，術前急救時，保持相對低血壓至收縮壓70-80mmHg最為理想。",
+      "EVAR用於該疾病的治療之比例大幅上升，漸漸成為治療的主流。",
+      "EVAR相較於open repair of rAAA，可有效手術死亡率的主要原因為，可有效減少及預防腹部腔室症候群。",
+      "不論進行的是EVAR或是open repair of rAAA，balloon occlusion of distal thoracic aorta都是可行且有效的proximal control。",
+      "Intra-abdominal pressure可由bladder pressure測得，一般認為大於30cmH2O的膀胱壓力可認定為腹部腔室症候群。"
+    ],
     "answer": "C",
     "ref": "Rutherford's Vascular Surgery, Chapter74, p3195-3204",
     "difficulty": "",
@@ -1224,11 +1547,17 @@
     "correct": null
   },
   {
-    "id": 103,
+    "id": 87,
     "year": "2022",
     "topic": "Aorta",
     "question": "目前台灣健保給付腹主動脈支架的適應症，何者為非?",
-    "options": [],
+    "options": [
+      "主動脈瘤最大直徑大於等於5公分",
+      "主動脈瘤最大直徑大於等於4公分，但快速擴大且六個月內直徑增加0.5公分(或以上)",
+      "腹主動脈瘤患者合併典型症狀，有破裂之虞時",
+      "腹主動脈腸胃道廔管",
+      "髂動脈瘤大於等於2.5公分"
+    ],
     "answer": "Ｅ",
     "ref": "腹主動脈瘤支架暨輸送引導系統之適應症及使用規範",
     "difficulty": "",
@@ -1236,11 +1565,17 @@
     "correct": null
   },
   {
-    "id": 104,
+    "id": 88,
     "year": "2022",
     "topic": "Access",
     "question": "透析廔管側的肢體竊血症候群(steal syndrome)是洗腎患者常遇到的問題，依病因不同可處理的方式下列何者正確?\n(1)若是近端動脈狹窄所導致，可進行狹窄處動脈之血管整形或支架置放。\n(2)若為遠端動脈病灶，可考慮置放支架。\n(3)若為低血流竊血症候群(low-flow steal syndrome)，可進行動脈血流之近端化(proximalization of arterial inflow)。\n(4)若為高血流竊血症候群(high-flow steal syndorme)，可進行遠端再血管化並中段結紮(distal revascularizaion-interval ligation, DRIL)。",
-    "options": [],
+    "options": [
+      "(1)(2)(3)皆正確。",
+      "(1)(2)皆正確。",
+      "(1)(2)(4)皆正確。",
+      "(1)(3)(4)皆正確。",
+      "(1)(2)(3)(4)皆正確。"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, Chapter179",
     "difficulty": "",
@@ -1248,11 +1583,17 @@
     "correct": null
   },
   {
-    "id": 105,
+    "id": 89,
     "year": "2022",
     "topic": "Basic",
     "question": "下列何者不會在intimal hyperplasia development的acute stage中出現?",
-    "options": [],
+    "options": [
+      "Organization of thrombosis",
+      "Endothelial cell ingrowth",
+      "Release of growth promoters",
+      "Release of growth inhibitors",
+      "Progenitor cell deposition"
+    ],
     "answer": "C",
     "ref": "Rutherford,s vascular surgery, 9th edition, P337, TABLE 5.1",
     "difficulty": "",
@@ -1260,11 +1601,17 @@
     "correct": null
   },
   {
-    "id": 106,
+    "id": 90,
     "year": "2022",
     "topic": "Aorta",
     "question": "Spinal ischemia是long-segment TEVAR有可能會碰到的狀況，在術前放置spinal drain可以降低發生的機率，在TEVAR的postoperative management中，spinal drain的CSF pressures建議維持在多少以下?",
-    "options": [],
+    "options": [
+      "≤5 cm H2O",
+      "≤10 cm H2O",
+      "≤15 cm H2O",
+      "≤20 cm H2O",
+      "≤25 cm H2O"
+    ],
     "answer": "B",
     "ref": "Rutherford,s vascular surgery, 9th edition, P3417",
     "difficulty": "",
@@ -1272,11 +1619,17 @@
     "correct": null
   },
   {
-    "id": 107,
+    "id": 91,
     "year": "2022",
     "topic": "Aorta",
     "question": "下列何者不是Thoracoabdominal Aortic Aneurysm Rupture的risk factor?",
-    "options": [],
+    "options": [
+      "Uncharacteristic continued pain",
+      "Aortic diameter",
+      "Stroke",
+      "Chronic obstructive pulmonary disease(COPD)",
+      "Older age"
+    ],
     "answer": "C",
     "ref": "Rutherford,s vascular surgery, 9th edition,P3275",
     "difficulty": "",
@@ -1284,11 +1637,17 @@
     "correct": null
   },
   {
-    "id": 108,
+    "id": 92,
     "year": "2022",
     "topic": "Peripheral",
     "question": "Acute ischemic limb有時會造成compartment symdrome，fasciotomy是治療的選擇，下列何者不是fasciotomy的absolute indication?",
-    "options": [],
+    "options": [
+      "Intracompartmental pressures(ICP) minus mean blood pressure <40 mm Hg",
+      "Intracompartmental pressures(ICP) minus diastolic blood pressure <10 mm Hg",
+      "Pain with passive motion of muscles traversing the tense compartment",
+      "Acute ischemia >6 hours with few collaterals",
+      "Paresis or paresthesias referable to the tense compartment"
+    ],
     "answer": "D",
     "ref": "Rutherford,s vascular surgery, 9th edition,P4460, Table 102.1",
     "difficulty": "",
@@ -1296,11 +1655,17 @@
     "correct": null
   },
   {
-    "id": 109,
+    "id": 93,
     "year": "2022",
     "topic": "Venous",
     "question": "下列何種疾病不會導致Portal Hypertension?",
-    "options": [],
+    "options": [
+      "Congestive heart failure",
+      "Constrictive pericarditis",
+      "Pancreatitis",
+      "Budd-Chiari syndrome",
+      "Chronic obstructive pulmonary disease(COPD)"
+    ],
     "answer": "E",
     "ref": "Rutherford,s vascular surgery, 9th edition,P7006",
     "difficulty": "",
@@ -1308,11 +1673,17 @@
     "correct": null
   },
   {
-    "id": 110,
+    "id": 94,
     "year": "2022",
     "topic": "Access",
     "question": "做完A-V shunt的病人有時會出現steal syndrome，下列何種治療方式適合normal flow的access-related hand ischemia(ARHI)?\n(1)Banding\n(2)Revision using distal inflow (RUDI)\n(3)Proximalization of arterial inflow (PAI)\n(4)Distal revascularization with interval ligation(DRIL)\n(5)Angioplasty",
-    "options": [],
+    "options": [
+      "(1)(2)",
+      "(2)(3)",
+      "(1)(3)(5)",
+      "(3)(4)(5)",
+      "(2)(4)(5)"
+    ],
     "answer": "D",
     "ref": "Rutherford,s vascular surgery, 9th edition,P7580",
     "difficulty": "",
@@ -1320,11 +1691,17 @@
     "correct": null
   },
   {
-    "id": 111,
+    "id": 95,
     "year": "2022",
     "topic": "Access",
     "question": "關於AV access steal syndrome的描述，下列何者為非?",
-    "options": [],
+    "options": [
+      "Vascular steal 的出現, 是因為在有限的artery inflow時, 存在著兩側不同阻力的輸出端.",
+      "建立AV access後，出現疼痛或sensory loss， 大部分的原因是因為steal.",
+      "AV graft 造成steal phenomenon 的比例， 比native AV fistula的機會來的少.",
+      "以common femoral vein 做為 HD access 的allograft conduit，需將動脈縫合端的口\n       徑 taper 至 5mm，以減少steal 的產生.",
+      "Steal syndrome of HD access 較常出現在female patients."
+    ],
     "answer": "B",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit, Pges: 481, 2027, 2813, 2845",
     "difficulty": "",
@@ -1332,11 +1709,17 @@
     "correct": null
   },
   {
-    "id": 112,
+    "id": 96,
     "year": "2022",
     "topic": "Basic",
     "question": "關於HD access的描述，下列何者為非?",
-    "options": [],
+    "options": [
+      "選擇upper arm 做為AV access時，artery inflow端 愈遠愈好.",
+      "如果選擇 PTFE graft 做為upper arm access conduit時. 過elbow 接在proximal radial\n       artery 的straight graft 通常不考慮.",
+      "Autologous AV fistula, 以end-to-side anastomosis 比起 side-to-side anastomosis,\n      有比較少venous hypertension的情況.",
+      "For prosthetic AV graft，arteriotomy 的開口可不用限制在 4~6mm.",
+      "對於需要做access transposition的病人，small-caliber vein (<4mm), 則會建議以2-\n       stage procedures來完成."
+    ],
     "answer": "B",
     "ref": "(Rutherford vascular surgery and Endovascular therapy 9th edit, Pages:7427, 7429, 7430, 7431",
     "difficulty": "",
@@ -1344,11 +1727,17 @@
     "correct": null
   },
   {
-    "id": 113,
+    "id": 97,
     "year": "2022",
     "topic": "Venous",
     "question": "For venous stasis ulcer 以下描述何者正確?",
-    "options": [],
+    "options": [
+      "(1)(2)(3)正確, (4)錯誤.",
+      "(1)(3)正確, (2)(4)錯誤.",
+      "(2)(4)正確, (1)(3)錯誤.",
+      "(4)正確, (1)(2)(3)錯誤.",
+      "(1)(2)(3)(4)皆正確."
+    ],
     "answer": "B",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit, Pages: 830,860",
     "difficulty": "",
@@ -1356,11 +1745,17 @@
     "correct": null
   },
   {
-    "id": 114,
+    "id": 98,
     "year": "2022",
     "topic": "Aorta",
     "question": "關於blunt traumatic aortic injury (BTAI) 的描述 以下何者為是?",
-    "options": [],
+    "options": [
+      "(1)(2)(3)正確, (4)錯誤.",
+      "(1)(3)正確, (2)(4)錯誤.",
+      "(2)(4)正確, (1)(3)錯誤.",
+      "(4)正確, (1)(2)(3)錯誤.",
+      "(1)(2)(3)(4)皆正確."
+    ],
     "answer": "D",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit,  Pages:7719, 7730~31",
     "difficulty": "",
@@ -1368,11 +1763,17 @@
     "correct": null
   },
   {
-    "id": 115,
+    "id": 99,
     "year": "2022",
     "topic": "Aorta",
     "question": "關於主動脈大支架 (EVAR/TEVAR)的描述, 何者為是?",
-    "options": [],
+    "options": [
+      "Type Ib endo-leak 可不像 Type Ia endo-leak 一樣, 需要馬上處理.",
+      "Type II endo-leak 比起 type III endo-leak， 有more relative benign course.",
+      "因stent delay upward migration 所造成的renal artery occlusion， 是常見的\n       complications.",
+      "在執行EVAR時，對於internal iliac artery (IIA) 的栓塞， delay stage embolization of\n       bilateral IIA by at least 1 week，其造成pelvic ischemia 的比例 並沒有比1-stage\n       embolization 來得低.",
+      "對於infected aneurysm的治療，stent graft 的放置已是安全的處置模式."
+    ],
     "answer": "B",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit,  Pages:3105, 3111m 3114)",
     "difficulty": "",
@@ -1380,11 +1781,17 @@
     "correct": null
   },
   {
-    "id": 116,
+    "id": 100,
     "year": "2022",
     "topic": "Aorta",
     "question": "關於Infected aortic aneurysm的描述, 以下何者為是?",
-    "options": [],
+    "options": [
+      "Infected abdominal aortic aneurysm，目前的感染菌種, 是以Staphylococcus &\n       Streptococcus為主要驅勢.",
+      "Infected aneurysm 較常見於saccular form aneurysm，而不是於fusiform aneurysm.",
+      "在open surgical repair 的比較上，extra-anatomic bypass 在short term mortality\n      上，比in-situ reconstruction來得好.",
+      "EVAR目前的角色 正取代傳統open repair 的處置 而且其long term result也不錯.",
+      "Life-long antibiotics treatment alone 對Infected aortic aneurysm 的治療結果是不\n      錯 的."
+    ],
     "answer": "B",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit,  Pages:3071~3072, 6245",
     "difficulty": "",
@@ -1392,11 +1799,17 @@
     "correct": null
   },
   {
-    "id": 117,
+    "id": 101,
     "year": "2022",
     "topic": "Basic",
     "question": "對於Ischemic-Reperfusion syndrome (I-R syndrome)的描述，以下何者為非?",
-    "options": [],
+    "options": [
+      "I-R injury 可在很多不同種類的手術中出現 包括cardiac，vascular，transplant，\n       reconstructive，even in trauma and heart failure.",
+      "Ischemic phase of I-R syndrome 主要是因tissue hypoxia & anoxia及stasis of \n       micro- circulation所造成",
+      "Ischemic phase的嚴重程度是決定於ischemic time of affected tissue，而不在其\n       baseline metabolic demands.",
+      "Reperfusion 所造成的tissue injury 往往比ischemic phase 來得嚴重.",
+      "I-R injury的臨床表現 可能有myocardium stunning，arrhythmia，ARDS， 及MOF \n      等情況.."
+    ],
     "answer": "C",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit, Pages: 375~378",
     "difficulty": "",
@@ -1404,11 +1817,17 @@
     "correct": null
   },
   {
-    "id": 118,
+    "id": 102,
     "year": "2022",
     "topic": "Visceral",
     "question": "關於mesenteric ischemia的描述，以下何者為非?",
-    "options": [],
+    "options": [
+      "Chronic mesenteric ischemia (CMI) 的治療，目前是以endovascular \n       revascularization為第一線的治療方式，而且治療後其symptoms recurrence, \n       restenosis, and re-interventional rate 都很少.",
+      "內臟的blood flow 隨著身體的不同狀況，會有很大的差異性. 在shock/hypovolemic \n       時，可能只佔10%. 在fasting 時，其blood flow 需求可能達25%，而高碳水化合物飲食\n       後， 更可能達35%.",
+      "Non-occlusive mesenteric ischemia最常見於鬱血性心衰竭的病人.",
+      "根據研究, 洗腎病人出現non-occlusive mesenteric ischemia的比例，是一般族群的40\n       倍.",
+      "CMI 最常見的臨床表現是post-prandial abdominal pain and progressive weight \n      loss."
+    ],
     "answer": "A",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit,  Pages: 5660~5672",
     "difficulty": "",
@@ -1416,11 +1835,17 @@
     "correct": null
   },
   {
-    "id": 119,
+    "id": 103,
     "year": "2022",
     "topic": "Venous",
     "question": "關於venous claudication的描述，以下何者為非 ?",
-    "options": [],
+    "options": [
+      "Iliac level chronic venous disease通常是non-leathal, and rare loss of limb，所以對\n       此處的silent lesion進行預防性治療是不必要的.",
+      "In iliac-caval stenosis with venous claudication，其atypical pain 包括nocturnal leg \n       cramps，restless leg，and dull limb pain at night.",
+      "Venous claudication 與 venous compartment syndrome的臨床表現很類似，且其疼\n       痛的位置也類似.",
+      "Distal popliteal venous obstruction 的臨床表現比 femoral-popliteal venous \n       obstruction來得快且嚴重.",
+      "對於venous-thrombo embolism 的病人，目前的處置方式不建議bed rest，而是要\n       early  ambulation."
+    ],
     "answer": "C",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit, Pages: 819, 6369,6905~6906",
     "difficulty": "",
@@ -1428,11 +1853,17 @@
     "correct": null
   },
   {
-    "id": 120,
+    "id": 104,
     "year": "2022",
     "topic": "Venous",
     "question": "關於IVC filter 以下描述何者為非 ?",
-    "options": [],
+    "options": [
+      "IVC filter 的主要目的在預防肺動脈栓塞(PE)的發生， 因此當沒有必要再預防肺動脈栓\n       塞時， IVC filter就要盡快移除.",
+      "目前研究認為，IVC filter+antocoagulation 與 anticoagulation alone 兩組的存\n       活率是前者比較高.",
+      "Retrievable IVC filter置放若超過12個月，其成功移除率將降到37%.",
+      "Trauma後引起的venous-thrombo embolism (VTE)的預防，主要是使用\n       anticoagulant protocol，如果對anticoagulant 有禁忌，也是選擇使用\n       mechanical thrombo-prophylaxis，而不是使用IVC filter.",
+      "IVC filter使用的indications是用在acute PE with contraindication of  \n       anticoagulant或是recurrent PE inspite of under anticoagulant therapy."
+    ],
     "answer": "B",
     "ref": "Rutherford vascular surgery and Endovascular therapy 9th edit,  Pages: 6541~6543",
     "difficulty": "",
@@ -1440,11 +1871,18 @@
     "correct": null
   },
   {
-    "id": 121,
+    "id": 105,
     "year": "2023亞東",
     "topic": "Venous",
     "question": "關於臨床及研究中所使用的CEAP(Clinical, Etiologic, Anatomic, and Pathophysiologic)分類，下列何者為非？",
-    "options": [],
+    "options": [
+      "C3: edema 水腫",
+      "E",
+      "congential (Klippel-Trenaunay syndrome)先天性",
+      "Ap: perforator 穿孔",
+      "Po: obtrstucion, thrombosis 阻塞、栓塞",
+      "C5: Active ulcer 急性潰瘍"
+    ],
     "answer": "Ｅ",
     "ref": "Rutherford,s vascular surgery, 9th edition",
     "difficulty": "",
@@ -1452,11 +1890,17 @@
     "correct": null
   },
   {
-    "id": 122,
+    "id": 106,
     "year": "2023亞東",
     "topic": "Aorta",
     "question": "一位33歲女性，來門診主訴間歇性跛行（intermittent claudication），卻無家族史，也無糖尿病，高血壓等危險因子。她承認，偶爾去酒吧與朋友聚會時，有時會抽煙。理檢看來身形一般，四肢並無明顯變形，步態穩定，觸檢發現病人右側下肢的遠端脈搏稍微減弱。您的初步評估認為可能不是一般動脈硬化疾病。您可能會考慮下列(1)~(3)哪些疾病？                              \n(1)Thromboangiitis obliterans\n(2) popliteal artery entrapment syndrome or adventitial cystic disease of the popliteal artery\n(3) Endofibrosis of external iliac artery (iliac artery syndrome in cyclists)",
-    "options": [],
+    "options": [
+      "僅(1)(2)正確",
+      "僅(1)(3)正確",
+      "僅(2)(3)正確",
+      "(1)(2)(3)皆正確",
+      "(1)(2)(3)皆錯誤"
+    ],
     "answer": "D",
     "ref": "Rutherford's Vascular Surgery, Chapter 108, 1660-1674.e3\nBox 108-1, Nonatherosclerotic Causes of Intermittent Claudication. Modified from Norgren L, et al: TASC II Working Group, Inter-Society Consensus for the Management of Peripheral Arterial Disease (TASC II). J Vasc Surg 45(Suppl S):22, 2007.",
     "difficulty": "",
@@ -1464,11 +1908,16 @@
     "correct": null
   },
   {
-    "id": 123,
+    "id": 107,
     "year": "2023亞東",
     "topic": "Basic",
     "question": "下列抗凝血藥物的種類與作用機轉之配對，何者錯誤？",
-    "options": [],
+    "options": [
+      "Fondaparinux – selective factor Xa inhibitor",
+      "Dabigatran – factor Ia inhibitor",
+      "Warfarin – Vitamin K1 antagonist",
+      "Rivaroxaban – factor Xa inhibitor"
+    ],
     "answer": "A",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 39",
     "difficulty": "",
@@ -1476,11 +1925,16 @@
     "correct": null
   },
   {
-    "id": 124,
+    "id": 108,
     "year": "2023亞東",
     "topic": "Peripheral",
     "question": "下列關於跛行(claudication)的敘述，何者錯誤？",
-    "options": [],
+    "options": [
+      "Venous claudication通常於清晨最嚴重，因活動之後而緩解",
+      "Neurogenic claudication的誘發可能與姿勢相關，且休息未必能緩解",
+      "年輕病患(小於50歲)的跛行，可能需要考慮運動傷害和Popliteal artery entrapment syndrome",
+      "糖尿病病患主訴跛行，伴隨有下肢末梢傷口時，diabetic neuropathy亦需列入鑑別診斷"
+    ],
     "answer": "B",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 18",
     "difficulty": "",
@@ -1488,11 +1942,16 @@
     "correct": null
   },
   {
-    "id": 125,
+    "id": 109,
     "year": "2023亞東",
     "topic": "Aorta",
     "question": "下列關於胸腹主動脈瘤(thoracoabdominal aortic aneurysm, TAAA)的敘述，何者錯誤？",
-    "options": [],
+    "options": [
+      "次常見的病因是主動脈剝離，這一類病人通常較年輕",
+      "血壓控制的首選藥物是ACEi/ARB及beta-blocker",
+      "結締組織病變相關主動脈瘤的手術介入時機，可容許的主動脈直徑較其他病因大",
+      "因慢性主動脈剝離造成的動脈瘤，當病人伴有結締組織疾病時，手術置換主動脈為治療首選"
+    ],
     "answer": "D",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 76",
     "difficulty": "",
@@ -1500,11 +1959,16 @@
     "correct": null
   },
   {
-    "id": 126,
+    "id": 110,
     "year": "2023亞東",
     "topic": "Aorta",
     "question": "下列何者非主動脈剝離的風險因子？",
-    "options": [],
+    "options": [
+      "Coarctation of aorta",
+      "Marfan syndrome",
+      "Pregnancy",
+      "Cocaine Abuse"
+    ],
     "answer": "B",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 81",
     "difficulty": "",
@@ -1512,11 +1976,16 @@
     "correct": null
   },
   {
-    "id": 127,
+    "id": 111,
     "year": "2023亞東",
     "topic": "Peripheral",
     "question": "下列關於美國血管外科學會（The Society for Vascular Surgery）所訂定之SVS危及下肢分類系統SVS Lower Extremity Threatened Limb Classification（簡稱WIFI Classification）之敘述何者錯誤？",
-    "options": [],
+    "options": [
+      "以上下肢血壓比檢查(ankle-brachial index, ABI)及經皮血氧測試儀(TCPO2)評估下肢缺血(ischemia)風險",
+      "承上，若ABI和TCPO2結果不一致，應以TCPO2為準",
+      "若病人有深層組織感染但無全身性發炎反應(SIRS)，於foot infection項目歸類為mild(grade 1)",
+      "該分類系統需以查表方式得知評估結果，並非直接以分數相加"
+    ],
     "answer": "D",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 104",
     "difficulty": "",
@@ -1524,11 +1993,16 @@
     "correct": null
   },
   {
-    "id": 128,
+    "id": 112,
     "year": "2023亞東",
     "topic": "Venous",
     "question": "一名四十歲女性主訴胸悶與呼吸喘兩天，於急診檢傷處失去意識併心跳停止開始急救，經心肺復甦術及插管處理後恢復意識，但仍呈現低血壓、心搏過速及低血氧狀態，下列關於病因診斷及治療之敘述，何者錯誤？",
-    "options": [],
+    "options": [
+      "大約一半的病人可於EKG顯示S1Q3T3 pattern",
+      "若無禁忌症，應盡快開始全身性的抗凝血治療",
+      "若病患之血行動力學持續不穩定，體外膜氧合(Extracorporeal Membrane Oxygenation, ECMO)應儘早介入",
+      "下腔靜脈過濾器(Inferior Vena Cava Filter)可作為不適合使用抗凝血劑治療之病患的治療選項"
+    ],
     "answer": "B",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 151",
     "difficulty": "",
@@ -1536,11 +2010,16 @@
     "correct": null
   },
   {
-    "id": 129,
+    "id": 113,
     "year": "2023亞東",
     "topic": "Access",
     "question": "關於洗腎病人vascular access的敘述，何者錯誤？",
-    "options": [],
+    "options": [
+      "戒菸可以有效減少洗腎通路發生問題的頻率",
+      "常規使用抗凝血劑可有效減少洗腎通路阻塞率",
+      "建立洗腎通路以非慣用手為首選，其次為慣用手，上肢皆無法建立洗腎通路時，可以考慮從下肢建立",
+      "洗腎通路必需在洗腎過程中可以維持每分鐘350至400ml的血流量才能達到有效的洗腎效率"
+    ],
     "answer": "C",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 175",
     "difficulty": "",
@@ -1548,11 +2027,16 @@
     "correct": null
   },
   {
-    "id": 130,
+    "id": 114,
     "year": "2023亞東",
     "topic": "Access",
     "question": "下列關於洗腎通路失效(access failure)的敘述，何者正確？",
-    "options": [],
+    "options": [
+      "內膜增生(intimal hyperplasia)最可能原因是輸入血流不足(inflow insufficiency)導致",
+      "中心靜脈阻塞通常與置放過tunneled hemodialysis catheter無關",
+      "承上，中心靜脈阻塞可以裸金屬支架(bare metal stent)置放改善",
+      "血栓清除術在處理阻塞的自體洗腎廔管之預後較人工洗腎廔管為好"
+    ],
     "answer": "A",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 178",
     "difficulty": "",
@@ -1560,11 +2044,16 @@
     "correct": null
   },
   {
-    "id": 131,
+    "id": 115,
     "year": "2023亞東",
     "topic": "Venous",
     "question": "下列關於急性深部靜脈血栓(acute deep vein thrombosis)的敘述，何者正確？\n(1)\t初次診斷的急性深部靜脈血栓中，與惡性腫瘤相關者約佔了二成\n(2)\t承上，與惡性腫瘤相關的深部靜脈血栓患者，抽血檢驗可能發現antithrombin、protein C和protein S濃度降低\n(3)\t接受減重手術病患為急性深部靜脈血栓之高危險群，應考慮皮下注射抗凝血藥物作為預防\n(4)\t與懷孕相關的深部靜脈血栓大多發生於右腳",
-    "options": [],
+    "options": [
+      "(1)(3)正確,(2)(4)錯誤",
+      "(2)(4)正確,(1)(3)錯誤",
+      "僅(4)正確",
+      "(1)(2)(3)(4)皆正確"
+    ],
     "answer": "A",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 145-146",
     "difficulty": "",
@@ -1572,68 +2061,21 @@
     "correct": null
   },
   {
-    "id": 132,
+    "id": 116,
     "year": "2023亞東",
     "topic": "Peripheral",
     "question": "下列關於慢性下肢缺血的敘述，何者正確？\n(1)\tBypass versus angioplasty in severe ischemia of the leg (BASIL) trial建議，選擇繞道手術或血管內治療，病人預期餘命應納入考慮\n(2)\t繞道手術成功的要素包含inflow，conduit，outflow皆須具備\n(3)\t若病人預期餘命超過二年，應以人工血管作為繞道手術conduit之首選",
-    "options": [],
+    "options": [
+      "僅(1)(3)正確",
+      "僅(2)(3)正確",
+      "(1)(2)(3)皆正確",
+      "(1)(2)(3)皆錯誤"
+    ],
     "answer": "A",
     "ref": "Rutherford,s vascular surgery, 9th edition, chapter 110",
     "difficulty": "",
     "practiced": false,
     "correct": null
-  },
-  {
-    "question": "關於血液透析廔管，何種為非？",
-    "options": [],
-    "answer": "C",
-    "topic": "Basic",
-    "year": "2013",
-    "hospital": "",
-    "id": 133,
-    "ref": "",
-    "difficulty": "中",
-    "practiced": 0,
-    "correct": 0
-  },
-  {
-    "question": "以下何者是錯誤的敘述",
-    "options": [],
-    "answer": "D",
-    "topic": "Basic",
-    "year": "2016",
-    "hospital": "",
-    "id": 134,
-    "ref": "",
-    "difficulty": "中",
-    "practiced": 0,
-    "correct": 0
-  },
-  {
-    "question": "關於洗腎瘺管的敘述，何者為誤",
-    "options": [],
-    "answer": "B",
-    "topic": "Basic",
-    "year": "2016",
-    "hospital": "",
-    "id": 135,
-    "ref": "",
-    "difficulty": "中",
-    "practiced": 0,
-    "correct": 0
-  },
-  {
-    "question": "關於手術技巧下列敘述何者錯誤？",
-    "options": [],
-    "answer": "B",
-    "topic": "Basic",
-    "year": "2016",
-    "hospital": "",
-    "id": 136,
-    "ref": "",
-    "difficulty": "中",
-    "practiced": 0,
-    "correct": 0
   },
   {
     "question": "主動脈的解剖分段區域定義( Thoracic aorta: anatomy and classifications)對於目前的TEVAR手術執行有所幫助，下列敘述，何者錯誤?",
@@ -1648,11 +2090,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 137,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 117
   },
   {
     "question": "下列關於Kommerell diverticulum敘述，何者錯誤?",
@@ -1667,11 +2109,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 138,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 118
   },
   {
     "question": "BTAI(blunt thoracic aortic injury)於車禍意外是一需要注意的診斷,下列敘述,何者錯誤？",
@@ -1684,11 +2126,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 139,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 119
   },
   {
     "question": "依據 Society of vascular surgery (SVS), society of thoracic surgeons (STS) , 於2020新分類thoracic aortic dissection記錄表示，何者為非？",
@@ -1702,11 +2144,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 140,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 120
   },
   {
     "question": "有關主動脈弓( aortic arch surgery) 手術的腦部保護，下列敘述，何者錯誤?",
@@ -1721,11 +2163,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 141,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 121
   },
   {
     "question": "Aortoenteric fistula (AEF) 是一困難處理的手術狀況，下列敘述，何者錯誤?",
@@ -1739,11 +2181,11 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 142,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 122
   },
   {
     "question": "胸腹主動脈瘤( Thoracoabdominal aortic aneurysm,TAAA )手術術後的脊椎功能保護是一個重要的議題，下列敘述，何者錯誤? 術中重建Intercostal artery 目前仍認為是重要步驟 Extent II TAAA repair ，prophylactic CSF drainage 仍為必要，對於Extent IV repair 若之前處理過AAA, CSF drainage仍為建議 Passive cooling, Regional cooling仍有證據力可提供保護 若疑似脊椎功能損傷,保持目標 CSF drainage pressure <10-15mmHg, maximum drainage volume 30-50ml/h 疑似脊椎功能損傷,使用Dexamethasone 10mg IV q12h, Mannitol 12.5g IV q12h 藥物可提供幫助",
@@ -1758,10 +2200,143 @@
     "topic": "Aorta",
     "year": "2023",
     "hospital": "中榮",
-    "id": 143,
     "ref": "",
     "difficulty": "中",
     "practiced": 0,
-    "correct": 0
+    "correct": 0,
+    "id": 123
+  },
+  {
+    "question": "下列何種形式的的主動脈支架置放後滲漏(endoleak)和主動脈瘤頸部(aneurysm neck)太短，直徑太大及太彎曲有關?",
+    "options": [
+      "Type I endoleak",
+      "Type II endoleak",
+      "Type III endoleak",
+      "Type IV endoleak",
+      "Type V endoleak"
+    ],
+    "answer": "A",
+    "topic": "Aorta",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 124
+  },
+  {
+    "question": "下列關於Buerger’s disease的描述何者為非？",
+    "options": [
+      "通常侵犯肢體較遠端的中型或小型動脈",
+      "最常發生在年輕抽煙的男性",
+      "從未被報告發生在腦部及冠狀動脈或其他臟器血管",
+      "亦可能影響到動脈鄰近的靜脈及神經",
+      "戒煙是唯一有效的療法"
+    ],
+    "answer": "C",
+    "topic": "Basic",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 125
+  },
+  {
+    "question": "下列關於皮下注射的低分子量肝素(low molecular weight heparin)的描述何者為非？",
+    "options": [
+      "生物可利用率較高且半衰期長，每日只需皮下注射1-2次即可",
+      "大部分病人不需監測凝血指標",
+      "相較於傳統肝素，較少造成血小板低下的併發症",
+      "相較於傳統肝素，主要是對抗凝血因子IIa的作用較強",
+      "相較於傳統肝素，較少造成骨質疏鬆的併發症"
+    ],
+    "answer": "D",
+    "topic": "Basic",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 126
+  },
+  {
+    "question": "進行TEVAR手術時,下列何種病人較不需進行腦脊髓液引流?",
+    "options": [
+      "Prior infrarenal aortic repair",
+      "Extensive coverage of thoracic aorta",
+      "Coverage of upper thoracic aorta (above T8)",
+      "Coverage of left subclavian artery without revascularization",
+      "Treatment of acute aortic dissection with malperfusion"
+    ],
+    "answer": "C",
+    "topic": "Aorta",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 127
+  },
+  {
+    "question": "取大隱靜脈來作為繞道手術材料時需注意的事項,以下何者為非?",
+    "options": [
+      "需採取atraumatic的手術技術",
+      "結紮分枝時,需距離靜脈壁約1-2mm",
+      "adventitial band須做適當的lysis",
+      "可施以大於150mmHg的壓力來使靜脈完全擴張",
+      "可用heparin solution保存"
+    ],
+    "answer": "D",
+    "topic": "Venous",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 128
+  },
+  {
+    "question": "根據大西洋岸各協會之共識TASC II的建議,罹患周邊動脈狹窄(PAD)的病人控制血脂的建議,下列何者為誤?",
+    "options": [
+      "Symptomatic PAD,LDL需低於100mg/dl",
+      "PAD合併有冠狀動脈疾病的病人, LDL需低於90mg/dl",
+      "無症狀PAD且沒有其他心血管疾病的病人LDL最好控制在低於100mg/dl",
+      "所有Symptomatic PAD皆須調整飲食以達到較好的血脂肪控制",
+      "Symptomatic PAD病人可服用Statin來降低LDL,並減少CV events的風險"
+    ],
+    "answer": "B",
+    "topic": "Peripheral",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 129
+  },
+  {
+    "question": "請問造成renal artery stenosis最常見的原因是",
+    "options": [
+      "Atherosclerosis",
+      "Fibromuscular dysplasia",
+      "Congenital hypoplasia",
+      "Aortic dissection",
+      "Trauma"
+    ],
+    "answer": "A",
+    "topic": "Visceral",
+    "year": "2012",
+    "hospital": "三總",
+    "ref": "",
+    "difficulty": "中",
+    "practiced": 0,
+    "correct": 0,
+    "id": 130
   }
 ]
